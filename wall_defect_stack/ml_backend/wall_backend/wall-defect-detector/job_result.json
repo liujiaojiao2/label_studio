@@ -1,0 +1,8 @@
+{
+  "train_output": {
+    "status": "success",
+    "message": "使用预训练模型，无需训练",
+    "tasks_count": 0
+  }
+}
+

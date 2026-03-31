@@ -1,0 +1,820 @@
+#!/bin/bash
+mc alias set local http://192.168.0.116:39000 minioadmin minioadmin123
+mc mb local/golden-dataset --ignore-existing
+
+echo "=== 开始上传 ==="
+success=0
+total=270
+
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01kHMwDd1yx0Yr0ASnw_!!4611686018427380500-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01kHMwDd1yx0Yr0ASnw_!!4611686018427380500-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01wOH3xd1c6rvWeF1Uj_!!4611686018427385632-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01wOH3xd1c6rvWeF1Uj_!!4611686018427385632-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01BFeDvX1gaPtvm3hr8_!!4611686018427387150-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN01BFeDvX1gaPtvm3hr8_!!4611686018427387150-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/优惠券领取页面/O1CN01PYcxSI28563iOK8Mz_!!2206753707880-2-ampmedia.png" local/golden-dataset/购物app截图/优惠券领取页面/O1CN01PYcxSI28563iOK8Mz_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN017GnU6I1oQoWTRZky2_!!4611686018427386084-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN017GnU6I1oQoWTRZky2_!!4611686018427386084-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01ckNWsL1dDZIFtyNQa_!!666673702-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01ckNWsL1dDZIFtyNQa_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN0156cvMD271bQ4ezSBi_!!4611686018427386169-0-amp (1).jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN0156cvMD271bQ4ezSBi_!!4611686018427386169-0-amp (1).jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/支付页面/O1CN01pp8HWG1dDZIPfowgO_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/支付页面/O1CN01pp8HWG1dDZIPfowgO_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01e55ptz2JCO8TdvPRy_!!4611686018427385689-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01e55ptz2JCO8TdvPRy_!!4611686018427385689-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/1699605683535_30447c277c03915aaecc0a12ab80ed50.jfif" local/golden-dataset/购物app截图/商品详情页截图/1699605683535_30447c277c03915aaecc0a12ab80ed50.jfif
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/订单详情页面/O1CN01iKWpZf24Ndd52FhHk_!!4611686018427381491-0-amp.jpg" local/golden-dataset/购物app截图/订单详情页面/O1CN01iKWpZf24Ndd52FhHk_!!4611686018427381491-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01nk453J1rKLp4oEt1w_!!4611686018427384156-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01nk453J1rKLp4oEt1w_!!4611686018427384156-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01ps9sC61dDZIPa1bF2_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN01ps9sC61dDZIPa1bF2_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01cIdVyT26ehcNU9SGM_!!4611686018427384471-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01cIdVyT26ehcNU9SGM_!!4611686018427384471-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01kFukQQ1dDZILrT6rW_!!666673702-0-ampmedia.jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN01kFukQQ1dDZILrT6rW_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN01KZY8GZ2EzKNbd2bsg_!!4611686018427384159-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN01KZY8GZ2EzKNbd2bsg_!!4611686018427384159-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01u40Qjn1GCtahdzdWI_!!4611686018427387803-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01u40Qjn1GCtahdzdWI_!!4611686018427387803-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01YPVnBl2BGxCR3bLn2_!!4611686018427380024-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01YPVnBl2BGxCR3bLn2_!!4611686018427380024-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01fXh3ad1Riv15vHpwb_!!4611686018427387570-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01fXh3ad1Riv15vHpwb_!!4611686018427387570-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN01NM3CWV2HMnui7e9mi_!!4611686018427384161-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN01NM3CWV2HMnui7e9mi_!!4611686018427384161-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01fNvlxE2IxjShQ6mBc_!!4611686018427385785-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01fNvlxE2IxjShQ6mBc_!!4611686018427385785-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01ASytxB1DSWDJBINg0_!!4611686018427380231-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01ASytxB1DSWDJBINg0_!!4611686018427380231-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01iRXwR81PingS4F9bR_!!4611686018427380179-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN01iRXwR81PingS4F9bR_!!4611686018427380179-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01GO0R441dDZILtCoOe_!!666673702-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01GO0R441dDZILtCoOe_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01kHhuNK2B1q5Z8SHCc_!!4611686018427380343-0-amp (1).jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01kHhuNK2B1q5Z8SHCc_!!4611686018427380343-0-amp (1).jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN014Gmq7V1dDZIPtunAb_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN014Gmq7V1dDZIPtunAb_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01YzMs8K1bEMnNTCUbf_!!4611686018427386361-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01YzMs8K1bEMnNTCUbf_!!4611686018427386361-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/裂缝/O1CN01f39edz1GtUNw2bZJ6_!!4611686018427380952-0-amp.jpg" local/golden-dataset/环境实拍图/裂缝/O1CN01f39edz1GtUNw2bZJ6_!!4611686018427380952-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01xJwaBb24PveO0jnpn_!!4611686018427382648-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01xJwaBb24PveO0jnpn_!!4611686018427382648-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN013rHia21R4cAEGReyj_!!4611686018427386970-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN013rHia21R4cAEGReyj_!!4611686018427386970-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN018oS3E41qq7dku1ULF_!!4611686018427386538-0-amp (1).jpg" local/golden-dataset/环境实拍图/露出基层/O1CN018oS3E41qq7dku1ULF_!!4611686018427386538-0-amp (1).jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01nBmloE1D2PdgaEbHe_!!4611686018427383630-0-amp.jpg" local/golden-dataset/其他/其他类别图片/O1CN01nBmloE1D2PdgaEbHe_!!4611686018427383630-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01iVh5a41vCnkgbkZWM_!!4611686018427381609-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01iVh5a41vCnkgbkZWM_!!4611686018427381609-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01cmvejf1HVxhBwjTl7_!!4611686018427385676-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01cmvejf1HVxhBwjTl7_!!4611686018427385676-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/1706848433647_2a800208f4d7dc478d18a8f3faa26c78 (1).jfif" local/golden-dataset/购物app截图/商品头图/1706848433647_2a800208f4d7dc478d18a8f3faa26c78 (1).jfif
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/活动页面/O1CN01fSYAFY1tzEMfTsjpV_!!4611686018427387780-0-amp.jpg" local/golden-dataset/购物app截图/活动页面/O1CN01fSYAFY1tzEMfTsjpV_!!4611686018427387780-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN011sReIK1eItYdTnqEt_!!4611686018427384489-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN011sReIK1eItYdTnqEt_!!4611686018427384489-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN013qkf421nm3GzOgYLx_!!4611686018427383035-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN013qkf421nm3GzOgYLx_!!4611686018427383035-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01jrIb131dDZIM8cQ4u_!!666673702-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01jrIb131dDZIM8cQ4u_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01T9KGvQ2CEUgl6jwaR_!!4611686018427386650-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01T9KGvQ2CEUgl6jwaR_!!4611686018427386650-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01YTV7le1b9KQvwlbpB_!!4611686018427386446-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01YTV7le1b9KQvwlbpB_!!4611686018427386446-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01PVRWYT2Duux0l2YYM_!!4611686018427386446-0-amp (1).jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01PVRWYT2Duux0l2YYM_!!4611686018427386446-0-amp (1).jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/店铺页面/O1CN01nU12DI1lmqjO2UsoN_!!4611686018427384382-0-amp.jpg" local/golden-dataset/购物app截图/店铺页面/O1CN01nU12DI1lmqjO2UsoN_!!4611686018427384382-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN018EQHmR1MTjoI9Lfgy_!!4611686018427380524-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN018EQHmR1MTjoI9Lfgy_!!4611686018427380524-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/支付页面/O1CN01L30q352LfMQLiWvk1_!!4611686018427380103-0-amp.jpg" local/golden-dataset/购物app截图/支付页面/O1CN01L30q352LfMQLiWvk1_!!4611686018427380103-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01GuncD01mN21MXeOK2_!!4611686018427381581-0-amp.jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN01GuncD01mN21MXeOK2_!!4611686018427381581-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN017OtdH01oI6zzcxAbm_!!4611686018427387121-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN017OtdH01oI6zzcxAbm_!!4611686018427387121-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN011C4UGB1ViEvunLbsm_!!4611686018427387838-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN011C4UGB1ViEvunLbsm_!!4611686018427387838-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01lidHAE1YqQrlMJqLV_!!4611686018427386934-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01lidHAE1YqQrlMJqLV_!!4611686018427386934-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN01LHuNha2BRUGh9NIL2_!!4611686018427383695-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN01LHuNha2BRUGh9NIL2_!!4611686018427383695-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01Hwxadc1dDZIIrUdte_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品分类选项/O1CN01Hwxadc1dDZIIrUdte_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01CnlGkg20TM9Qh81Ur_!!4611686018427383762-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01CnlGkg20TM9Qh81Ur_!!4611686018427383762-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN014kBOuX2MulMIVp6BX_!!4611686018427381712-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN014kBOuX2MulMIVp6BX_!!4611686018427381712-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01Gkdv9Q1UzoTNqW4b8_!!4611686018427384301-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01Gkdv9Q1UzoTNqW4b8_!!4611686018427384301-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01E27V1b1IT2kMHAkzm_!!4611686018427384685-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01E27V1b1IT2kMHAkzm_!!4611686018427384685-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN016A4tk321SGmuUb2V0_!!4611686018427380855-2-amp.png" local/golden-dataset/购物app截图/商品头图/O1CN016A4tk321SGmuUb2V0_!!4611686018427380855-2-amp.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01QLdjcW1sCOYMr0026_!!4611686018427379906-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01QLdjcW1sCOYMr0026_!!4611686018427379906-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01MD9N3u1dDZINWrAdV_!!666673702-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01MD9N3u1dDZINWrAdV_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01mbOAK91xkLxeE81nC_!!4611686018427386385-0-amp.jpg" local/golden-dataset/其他/其他类别图片/O1CN01mbOAK91xkLxeE81nC_!!4611686018427386385-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN01DvOeoe1vGvHOIa1Um_!!4611686018427386578-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN01DvOeoe1vGvHOIa1Um_!!4611686018427386578-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN013cxd4K1Y9pzUctxIF_!!4611686018427385833-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN013cxd4K1Y9pzUctxIF_!!4611686018427385833-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN011oBedp1Xeh6BC1k8S_!!4611686018427382181-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN011oBedp1Xeh6BC1k8S_!!4611686018427382181-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01oOe3Br2BOjtKFPpVh_!!4611686018427381257-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01oOe3Br2BOjtKFPpVh_!!4611686018427381257-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01FnCgDn20vIGpv6g2m_!!4611686018427382975-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01FnCgDn20vIGpv6g2m_!!4611686018427382975-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN014RboO31RqhkXtWESf_!!4611686018427381235-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN014RboO31RqhkXtWESf_!!4611686018427381235-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/裂缝/O1CN01AwQcc91weZNhOgLri_!!4611686018427386525-0-amp.jpg" local/golden-dataset/环境实拍图/裂缝/O1CN01AwQcc91weZNhOgLri_!!4611686018427386525-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/支付页面/O1CN01EAU5mi2LnbYKhwlkI_!!4611686018427384873-0-amp.jpg" local/golden-dataset/购物app截图/支付页面/O1CN01EAU5mi2LnbYKhwlkI_!!4611686018427384873-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/评论区截图页面/O1CN01bru72D1lgRBdZFmZH_!!4611686018427381296-0-amp.jpg" local/golden-dataset/购物app截图/评论区截图页面/O1CN01bru72D1lgRBdZFmZH_!!4611686018427381296-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01ASKS9A1V6E1Dul3cD_!!4611686018427385435-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01ASKS9A1V6E1Dul3cD_!!4611686018427385435-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01BhdUpi1OAA74fWhKB_!!4611686018427380592-0-amp.jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN01BhdUpi1OAA74fWhKB_!!4611686018427380592-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01lf4RLB26bxHb59grp_!!4611686018427380065-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01lf4RLB26bxHb59grp_!!4611686018427380065-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01J4qGPe1GLb7JwhQLm_!!4611686018427383262-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01J4qGPe1GLb7JwhQLm_!!4611686018427383262-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/外部APP截图/O1CN0142pR8v1GMyGQAaJBk_!!4611686018427384161-0-amp.jpg" local/golden-dataset/其他/外部APP截图/O1CN0142pR8v1GMyGQAaJBk_!!4611686018427384161-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01iNyRvk1mbEIaazlUe_!!4611686018427381676-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01iNyRvk1mbEIaazlUe_!!4611686018427381676-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN01oyYjkv2Caw3T0yayv_!!4611686018427383451-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN01oyYjkv2Caw3T0yayv_!!4611686018427383451-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01fyEz0Y1roZv99Xeti_!!4611686018427384478-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01fyEz0Y1roZv99Xeti_!!4611686018427384478-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN017iyPq41dDZIPtZJon_!!666673702-0-ampmedia.jpg" local/golden-dataset/其他/其他类别图片/O1CN017iyPq41dDZIPtZJon_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01psgbEu1RtS7txHHP9_!!4611686018427386249-0-amp.jpg" local/golden-dataset/其他/其他类别图片/O1CN01psgbEu1RtS7txHHP9_!!4611686018427386249-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01Ls93yS1scxWrnL8ag_!!4611686018427381388-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01Ls93yS1scxWrnL8ag_!!4611686018427381388-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN016KB98l1ZSu5vx5ZtX_!!4611686018427379850-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN016KB98l1ZSu5vx5ZtX_!!4611686018427379850-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01pv1OVT2NZ4D8VFeSK_!!4611686018427384296-0-amp.jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN01pv1OVT2NZ4D8VFeSK_!!4611686018427384296-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01F2nI4Q21aVuuX8Omm_!!2219445627001-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN01F2nI4Q21aVuuX8Omm_!!2219445627001-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN019EZtkZ1iIDOPPwZPY_!!4611686018427380469-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN019EZtkZ1iIDOPPwZPY_!!4611686018427380469-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01NMijCs2FGH4lgpsO0_!!4611686018427383012-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01NMijCs2FGH4lgpsO0_!!4611686018427383012-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN019pK4gU1dDZIQocm1l_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN019pK4gU1dDZIQocm1l_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01WDag0X1WOplMubcX8_!!4611686018427380827-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01WDag0X1WOplMubcX8_!!4611686018427380827-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01AxIsJa23aAr303Jq1_!!4611686018427387287-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01AxIsJa23aAr303Jq1_!!4611686018427387287-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN011c2set1dDZINvEAZq_!!666673702-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN011c2set1dDZINvEAZq_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/裂缝/O1CN01gMwaJK1DAeoABDunV_!!4611686018427387552-0-amp.jpg" local/golden-dataset/环境实拍图/裂缝/O1CN01gMwaJK1DAeoABDunV_!!4611686018427387552-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN01EO9hyh1fsRscVNKrW_!!4611686018427380974-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN01EO9hyh1fsRscVNKrW_!!4611686018427380974-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01oe7fmN1NddzYUl48I_!!4611686018427386505-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01oe7fmN1NddzYUl48I_!!4611686018427386505-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN018XZGEN1ImjmISWS5O_!!4611686018427381496-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN018XZGEN1ImjmISWS5O_!!4611686018427381496-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/外部APP截图/O1CN01OYoVI51ziBJbtswqz_!!4611686018427386363-0-amp.jpg" local/golden-dataset/其他/外部APP截图/O1CN01OYoVI51ziBJbtswqz_!!4611686018427386363-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01MMFjcI1uGdPoD3td5_!!4611686018427384106-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01MMFjcI1uGdPoD3td5_!!4611686018427384106-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01ecIiaz1myaUvcGDUs_!!4611686018427381519-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01ecIiaz1myaUvcGDUs_!!4611686018427381519-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01t5ATJ31zmIvCQDctb_!!4611686018427382692-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01t5ATJ31zmIvCQDctb_!!4611686018427382692-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01M5NKpw2AdZ8dmQxJ3_!!4611686018427381458-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01M5NKpw2AdZ8dmQxJ3_!!4611686018427381458-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01bQM8rs1oGHSGgsOYV_!!4611686018427383405-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01bQM8rs1oGHSGgsOYV_!!4611686018427383405-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/订单详情页面/O1CN01gVQspt1RrA9A08bhX_!!4611686018427381716-0-amp.jpg" local/golden-dataset/购物app截图/订单详情页面/O1CN01gVQspt1RrA9A08bhX_!!4611686018427381716-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01bBG0aE1dDZIIyf4ee_!!666673702-0-ampmedia (1).jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN01bBG0aE1dDZIIyf4ee_!!666673702-0-ampmedia (1).jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/活动页面/O1CN01GndbfF28563gionZZ_!!2206753707880-2-ampmedia.png" local/golden-dataset/购物app截图/活动页面/O1CN01GndbfF28563gionZZ_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN017tAWJ31It9K3BO6nh_!!4611686018427387046-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN017tAWJ31It9K3BO6nh_!!4611686018427387046-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN018UkUaw28563hv4nXY_!!2206753707880-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN018UkUaw28563hv4nXY_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN0156SguU1dDZIPt3trC_!!666673702-0-ampmedia.jpg" local/golden-dataset/购物app截图/商品头图/O1CN0156SguU1dDZIPt3trC_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01HNHOEk1dDZIOXZwCO_!!666673702-0-ampmedia.jpg" local/golden-dataset/其他/其他类别图片/O1CN01HNHOEk1dDZIOXZwCO_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01Ktj7o91t4RFkHR8mD_!!4611686018427383864-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01Ktj7o91t4RFkHR8mD_!!4611686018427383864-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN012oB9zI1dDZILuVhvC_!!666673702-0-ampmedia.jpg" local/golden-dataset/其他/其他类别图片/O1CN012oB9zI1dDZILuVhvC_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01UqZdOg1GppG22QfrK_!!4611686018427380896-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01UqZdOg1GppG22QfrK_!!4611686018427380896-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01NdoHkY1m8NO9J3O51_!!4611686018427385277-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01NdoHkY1m8NO9J3O51_!!4611686018427385277-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01OLlt2M1dDZINN3rJ5_!!666673702-0-ampmedia.jpg" local/golden-dataset/其他/其他类别图片/O1CN01OLlt2M1dDZINN3rJ5_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01KH25Dx20CPUtKQ2kS_!!4611686018427381053-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01KH25Dx20CPUtKQ2kS_!!4611686018427381053-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01PbX1V11hmc40gQYLH_!!4611686018427382544-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01PbX1V11hmc40gQYLH_!!4611686018427382544-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/1702626410811_5966ca349a47404ae45efa74cb5d8076.jfif" local/golden-dataset/购物app截图/商品详情页截图/1702626410811_5966ca349a47404ae45efa74cb5d8076.jfif
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01lRjLo21tVSf3hnu8C_!!4611686018427387747-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01lRjLo21tVSf3hnu8C_!!4611686018427387747-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01P4toRW1dDZIPHgHW4_!!666673702-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01P4toRW1dDZIPHgHW4_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01DlZbCQ1mOPCzzCHfS_!!4611686018427382032-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01DlZbCQ1mOPCzzCHfS_!!4611686018427382032-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01JNby311mbEIb69US5_!!4611686018427381676-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01JNby311mbEIb69US5_!!4611686018427381676-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01xRBVCC1tUXs0J9sJ4_!!4611686018427384001-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01xRBVCC1tUXs0J9sJ4_!!4611686018427384001-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN010UjtKN2LJNS6pvR3F_!!4611686018427383303-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN010UjtKN2LJNS6pvR3F_!!4611686018427383303-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN018EO0I92Lj1dEjfNDq_!!4611686018427383551-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN018EO0I92Lj1dEjfNDq_!!4611686018427383551-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN0120KzpE1dDZIOC8M6H_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN0120KzpE1dDZIOC8M6H_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01RlW0Ix1nRRUYBezU0_!!4611686018427383614-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01RlW0Ix1nRRUYBezU0_!!4611686018427383614-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01ofMlaZ2IXAX1VCi44_!!4611686018427380047-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01ofMlaZ2IXAX1VCi44_!!4611686018427380047-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN01jh3Fjo2LpR8WgFrOx_!!4611686018427384109-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN01jh3Fjo2LpR8WgFrOx_!!4611686018427384109-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN0114hXyI1dDZINBxjLC_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品头图/O1CN0114hXyI1dDZINBxjLC_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN01S5GBt525rhHRD1g5f_!!4611686018427385212-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN01S5GBt525rhHRD1g5f_!!4611686018427385212-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01eqr3Ur1XsQyutdOx7_!!4611686018427385107-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01eqr3Ur1XsQyutdOx7_!!4611686018427385107-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN014vRGqI1dDZIPKfdQK_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN014vRGqI1dDZIPKfdQK_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01O3NcvZ28563iTAtzT_!!2206753707880-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01O3NcvZ28563iTAtzT_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01NHIUnl1Jy19D0Et2T_!!4611686018427383544-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01NHIUnl1Jy19D0Et2T_!!4611686018427383544-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/活动页面/O1CN01olh8rI1q94PVWRGHr_!!4611686018427382300-0-amp.jpg" local/golden-dataset/购物app截图/活动页面/O1CN01olh8rI1q94PVWRGHr_!!4611686018427382300-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01JZVxPl1oyFTcUjyph_!!4611686018427380813-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01JZVxPl1oyFTcUjyph_!!4611686018427380813-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/裂缝/O1CN01fjTZjw22z4lylPFX3_!!4611686018427382278-0-amp.jpg" local/golden-dataset/环境实拍图/裂缝/O1CN01fjTZjw22z4lylPFX3_!!4611686018427382278-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN017bDabY1mj125PqGHH_!!4611686018427382989-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN017bDabY1mj125PqGHH_!!4611686018427382989-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01bbKbb81lCD2wu2i4a_!!4611686018427387774-0-amp.jpg" local/golden-dataset/其他/其他类别图片/O1CN01bbKbb81lCD2wu2i4a_!!4611686018427387774-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01KyVApT1GJlUYk7eIS_!!4611686018427384890-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01KyVApT1GJlUYk7eIS_!!4611686018427384890-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN01LGLk831Tn9x6BPULS_!!4611686018427380986-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN01LGLk831Tn9x6BPULS_!!4611686018427380986-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/1709377440044_1f5a929280c8f31f1ea7a2048e001084.jfif" local/golden-dataset/购物app截图/商品分类选项/1709377440044_1f5a929280c8f31f1ea7a2048e001084.jfif
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01j9wPkN1juyWiRyTkt_!!4611686018427380785-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01j9wPkN1juyWiRyTkt_!!4611686018427380785-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01MRLI0q2JuoalxjssU_!!4611686018427386458-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01MRLI0q2JuoalxjssU_!!4611686018427386458-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01qRwrjR1HMnm0bnnWv_!!4611686018427380696-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01qRwrjR1HMnm0bnnWv_!!4611686018427380696-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01DUz9E31QpV5odBWVW_!!4611686018427383497-0-amp.jpg" local/golden-dataset/其他/其他类别图片/O1CN01DUz9E31QpV5odBWVW_!!4611686018427383497-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN018oS3E41qq7dku1ULF_!!4611686018427386538-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN018oS3E41qq7dku1ULF_!!4611686018427386538-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/订单详情页面/O1CN01ksF9JN1aNEoEVblXI_!!4611686018427383621-0-amp.jpg" local/golden-dataset/购物app截图/订单详情页面/O1CN01ksF9JN1aNEoEVblXI_!!4611686018427383621-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01jTrkM11iIfmx6AFdL_!!4611686018427381942-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN01jTrkM11iIfmx6AFdL_!!4611686018427381942-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01tdP5oR1x4DZ3aFwag_!!4611686018427386149-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01tdP5oR1x4DZ3aFwag_!!4611686018427386149-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/评论区截图页面/1718032990065_09f29745429e6ef80874ec5504f615b6 (1).jfif" local/golden-dataset/购物app截图/评论区截图页面/1718032990065_09f29745429e6ef80874ec5504f615b6 (1).jfif
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01MEa2wt1NoB8x5l4cm_!!4611686018427387776-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01MEa2wt1NoB8x5l4cm_!!4611686018427387776-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/活动页面/O1CN01Bll4uK1ryCEt8tjDN_!!4611686018427383443-0-amp.jpg" local/golden-dataset/购物app截图/活动页面/O1CN01Bll4uK1ryCEt8tjDN_!!4611686018427383443-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01mpgvTB1W7QfujYzFt_!!4611686018427384725-0-amp.jpg" local/golden-dataset/其他/其他类别图片/O1CN01mpgvTB1W7QfujYzFt_!!4611686018427384725-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01dwcdBq28563ffdtrO_!!2206753707880-2-ampmedia.png" local/golden-dataset/购物app截图/商品头图/O1CN01dwcdBq28563ffdtrO_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/订单详情页面/O1CN01mV6CSW1wtgPltMN4V_!!3617226366-0-ampmedia.jpg" local/golden-dataset/购物app截图/订单详情页面/O1CN01mV6CSW1wtgPltMN4V_!!3617226366-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN017flxjV23x4hO6NJu1_!!4611686018427387097-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN017flxjV23x4hO6NJu1_!!4611686018427387097-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01eOQ1OL1ig21mD4pH4_!!4611686018427381977-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01eOQ1OL1ig21mD4pH4_!!4611686018427381977-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN0100cFZH2GyzJlxeZGC_!!4611686018427381181-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN0100cFZH2GyzJlxeZGC_!!4611686018427381181-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01NADPj01OflRSvXbvi_!!4611686018427381477-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01NADPj01OflRSvXbvi_!!4611686018427381477-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01bAroYu1PrVFVSlYaJ_!!4611686018427384294-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01bAroYu1PrVFVSlYaJ_!!4611686018427384294-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01Xm7LJo1ZYOt3NMzhX_!!4611686018427382822-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01Xm7LJo1ZYOt3NMzhX_!!4611686018427382822-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01G7OjVO1HvbpjJ0UZL_!!4611686018427386292-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01G7OjVO1HvbpjJ0UZL_!!4611686018427386292-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/物流页面-物流跟踪页面/O1CN011eyxIV21aVuuezkd3_!!2219445627001-2-ampmedia.png" local/golden-dataset/购物app截图/物流页面-物流跟踪页面/O1CN011eyxIV21aVuuezkd3_!!2219445627001-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01e2fkM21fDEGmSMMPv_!!4611686018427381428-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01e2fkM21fDEGmSMMPv_!!4611686018427381428-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN011XsTmu1dDZIOunVNr_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN011XsTmu1dDZIOunVNr_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01rNBEMm26DgI7bOVds_!!4611686018427382588-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01rNBEMm26DgI7bOVds_!!4611686018427382588-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01LRmtGz1gZxXxvzkBl_!!4611686018427386397-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01LRmtGz1gZxXxvzkBl_!!4611686018427386397-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN013xA1O82JZHwIROddg_!!4611686018427386027-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN013xA1O82JZHwIROddg_!!4611686018427386027-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN01gFtFQ51Oz075otfqr_!!4611686018427383375-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN01gFtFQ51Oz075otfqr_!!4611686018427383375-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01ILadpm1GyzB47t6fR_!!4611686018427380404-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01ILadpm1GyzB47t6fR_!!4611686018427380404-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01Lc5Hw11UbzsZabgfM_!!4611686018427384441-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01Lc5Hw11UbzsZabgfM_!!4611686018427384441-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01a7Spq12AqqaC8AupC_!!4611686018427383263-2-amp.png" local/golden-dataset/购物app截图/商品头图/O1CN01a7Spq12AqqaC8AupC_!!4611686018427383263-2-amp.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN012W2Hiy2FU0xPnATzh_!!4611686018427380402-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN012W2Hiy2FU0xPnATzh_!!4611686018427380402-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/订单详情页面/O1CN01iHkwgF1vx3ie5jwHS_!!4611686018427383150-0-amp.jpg" local/golden-dataset/购物app截图/订单详情页面/O1CN01iHkwgF1vx3ie5jwHS_!!4611686018427383150-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/支付页面/O1CN0199hh8U1gnhO1Y5YI4_!!4611686018427386171-0-amp.jpg" local/golden-dataset/购物app截图/支付页面/O1CN0199hh8U1gnhO1Y5YI4_!!4611686018427386171-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN01LmMatd23cvEMHtupE_!!4611686018427383549-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN01LmMatd23cvEMHtupE_!!4611686018427383549-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/评论区截图页面/O1CN01FWGCKj1lzDQQFHAPG_!!4611686018427382793-0-amp.jpg" local/golden-dataset/购物app截图/评论区截图页面/O1CN01FWGCKj1lzDQQFHAPG_!!4611686018427382793-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN010ySDgR1dYB7HC4Vid_!!4611686018427383811-0-amp.jpg" local/golden-dataset/其他/其他类别图片/O1CN010ySDgR1dYB7HC4Vid_!!4611686018427383811-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/外部APP截图/O1CN019Y1Wno1dDZIPFE4sA_!!666673702-2-ampmedia.png" local/golden-dataset/其他/外部APP截图/O1CN019Y1Wno1dDZIPFE4sA_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01PWzymm1FQnxkuYEfl_!!4611686018427381074-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01PWzymm1FQnxkuYEfl_!!4611686018427381074-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01JYAKOC2FtChNApRxK_!!4611686018427381705-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01JYAKOC2FtChNApRxK_!!4611686018427381705-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01vfaZVM2FjaQJMvUO3_!!4611686018427384468-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01vfaZVM2FjaQJMvUO3_!!4611686018427384468-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01gHGrSw1sBw7UfHAYI_!!4611686018427380225-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN01gHGrSw1sBw7UfHAYI_!!4611686018427380225-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/1730265476583_f224e5a7d06ead139263ace3c1057b15.jfif" local/golden-dataset/购物app截图/商品详情页截图/1730265476583_f224e5a7d06ead139263ace3c1057b15.jfif
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01a5lOJn1PingPR0Zl7_!!4611686018427380179-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01a5lOJn1PingPR0Zl7_!!4611686018427380179-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01AWmB8P1dDZINtR85Q_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品分类选项/O1CN01AWmB8P1dDZINtR85Q_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01xmgiRc1buxd2RDjmX_!!4611686018427386726-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01xmgiRc1buxd2RDjmX_!!4611686018427386726-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01MvrT7l1CApIV5SLRy_!!4611686018427383897-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01MvrT7l1CApIV5SLRy_!!4611686018427383897-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01Ji9pbU1VrOr5Z4N7o_!!4611686018427380834-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01Ji9pbU1VrOr5Z4N7o_!!4611686018427380834-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01I6ZtKp28ahQd9tFzq_!!4611686018427385133-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01I6ZtKp28ahQd9tFzq_!!4611686018427385133-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01b5ERgT1dDZIOcdKIs_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品头图/O1CN01b5ERgT1dDZIOcdKIs_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01aXdHp32G4edtffIuE_!!4611686018427386322-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01aXdHp32G4edtffIuE_!!4611686018427386322-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01QCEjal1nkg7sOfM9H_!!4611686018427380056-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01QCEjal1nkg7sOfM9H_!!4611686018427380056-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01hYSjJj29mtY9EG4ZS_!!4611686018427386671-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01hYSjJj29mtY9EG4ZS_!!4611686018427386671-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01lReU431rH93BI0zsZ_!!4611686018427383109-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01lReU431rH93BI0zsZ_!!4611686018427383109-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN01M68uXf2II3Q91G5uO_!!4611686018427384126-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN01M68uXf2II3Q91G5uO_!!4611686018427384126-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01GnAKT51dDZINJXGiu_!!666673702-0-ampmedia.jpg" local/golden-dataset/其他/其他类别图片/O1CN01GnAKT51dDZINJXGiu_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/物流页面-物流跟踪页面/O1CN01CCp2qW1Y6AoyD5bcO_!!4611686018427386017-0-amp.jpg" local/golden-dataset/购物app截图/物流页面-物流跟踪页面/O1CN01CCp2qW1Y6AoyD5bcO_!!4611686018427386017-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01i9PEzK1VYccG9eNvy_!!4611686018427380857-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01i9PEzK1VYccG9eNvy_!!4611686018427380857-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN018j0vd02F0hZJRbBeV_!!4611686018427386162-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN018j0vd02F0hZJRbBeV_!!4611686018427386162-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01FiWVg128563ir5ZQ0_!!2206753707880-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01FiWVg128563ir5ZQ0_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01602nFO1dDZINYV8GY_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN01602nFO1dDZINYV8GY_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01CxHrWw1dDZIFfGgs8_!!666673702-2-ampmedia (1).png" local/golden-dataset/购物app截图/商品详情页截图/O1CN01CxHrWw1dDZIFfGgs8_!!666673702-2-ampmedia (1).png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN013AzFMC1ycOjaKzqco_!!4611686018427380455-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN013AzFMC1ycOjaKzqco_!!4611686018427380455-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01v98tE929HIG1bFZRw_!!4611686018427380586-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01v98tE929HIG1bFZRw_!!4611686018427380586-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01jAuX8Q1dDZIFuefa1_!!666673702-0-ampmedia.jpg" local/golden-dataset/其他/其他类别图片/O1CN01jAuX8Q1dDZIFuefa1_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01MhlyMG1csV7Nz4ikc_!!4611686018427385816-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01MhlyMG1csV7Nz4ikc_!!4611686018427385816-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01PXIHaP1WyYcWfwMQ4_!!4611686018427381801-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01PXIHaP1WyYcWfwMQ4_!!4611686018427381801-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01mBNqAa1dFOv9JQXdA_!!4611686018427383114-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01mBNqAa1dFOv9JQXdA_!!4611686018427383114-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01KkR5A61dDZINXOoAF_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN01KkR5A61dDZINXOoAF_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01OqM9gX28563hwrs8y_!!2206753707880-2-ampmedia.png" local/golden-dataset/购物app截图/商品分类选项/O1CN01OqM9gX28563hwrs8y_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01irD0M11CclSTLDk03_!!4611686018427381990-0-amp.jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN01irD0M11CclSTLDk03_!!4611686018427381990-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN015sYhdN2LzVtHHDxSH_!!4611686018427386035-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN015sYhdN2LzVtHHDxSH_!!4611686018427386035-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01cuvAlY1dDZIONwrPc_!!666673702-0-ampmedia (1).jpg" local/golden-dataset/其他/其他类别图片/O1CN01cuvAlY1dDZIONwrPc_!!666673702-0-ampmedia (1).jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/优惠券领取页面/O1CN01LtMxsl1dDZIOXxeDi_!!666673702-0-ampmedia.jpg" local/golden-dataset/购物app截图/优惠券领取页面/O1CN01LtMxsl1dDZIOXxeDi_!!666673702-0-ampmedia.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN0173DyfX1sQanO5aoYH_!!4611686018427381665-0-amp.jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN0173DyfX1sQanO5aoYH_!!4611686018427381665-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01MrCTJz297fu5JPYBk_!!4611686018427386549-0-amp.jpg" local/golden-dataset/其他/其他类别图片/O1CN01MrCTJz297fu5JPYBk_!!4611686018427386549-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01E1xW6a1Sw1yD6cnQb_!!4611686018427382918-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01E1xW6a1Sw1yD6cnQb_!!4611686018427382918-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01Z5nHMU274Lq3mAh5V_!!4611686018427386783-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01Z5nHMU274Lq3mAh5V_!!4611686018427386783-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01cDBqN31vDiVXMxsVZ_!!4611686018427384779-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN01cDBqN31vDiVXMxsVZ_!!4611686018427384779-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01OjmEju1annmWfwhP4_!!4611686018427380271-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01OjmEju1annmWfwhP4_!!4611686018427380271-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01fi1ZlU1hFBC1mhLiD_!!4611686018427380295-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01fi1ZlU1hFBC1mhLiD_!!4611686018427380295-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01tESCKr2DIRipKRRwK_!!4611686018427387434-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01tESCKr2DIRipKRRwK_!!4611686018427387434-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01BKrjJU2CfW119Dss2_!!4611686018427384229-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01BKrjJU2CfW119Dss2_!!4611686018427384229-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01iNtSyS28563hCvs5q_!!2206753707880-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01iNtSyS28563hCvs5q_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01PkaR841mMZcmg2SJB_!!4611686018427380380-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01PkaR841mMZcmg2SJB_!!4611686018427380380-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/全部未分类/O1CN01L6ZpqI1nsvDOl6UhM_!!4611686018427379850-0-amp.jpg" local/golden-dataset/环境实拍图/全部未分类/O1CN01L6ZpqI1nsvDOl6UhM_!!4611686018427379850-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01KgsbRt1CrQ8JMQVpH_!!4611686018427382534-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01KgsbRt1CrQ8JMQVpH_!!4611686018427382534-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/活动页面/O1CN01a8Pm2y1KShgXKgSp0_!!4611686018427385195-0-amp.jpg" local/golden-dataset/购物app截图/活动页面/O1CN01a8Pm2y1KShgXKgSp0_!!4611686018427385195-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN01FgCzeu1ceInZyT7PG_!!4611686018427382601-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN01FgCzeu1ceInZyT7PG_!!4611686018427382601-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01kPKr8K27191ZligoD_!!4611686018427379720-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01kPKr8K27191ZligoD_!!4611686018427379720-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01nXWHze1GByl3l2Urt_!!4611686018427380937-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01nXWHze1GByl3l2Urt_!!4611686018427380937-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01sjArKy1XASxRffYBW_!!4611686018427380051-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01sjArKy1XASxRffYBW_!!4611686018427380051-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01R2MXnt1wSCgeXOoFY_!!4611686018427384402-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01R2MXnt1wSCgeXOoFY_!!4611686018427384402-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/裂缝/O1CN01nbsox61mXZAZN1AQ2_!!4611686018427387780-0-amp.jpg" local/golden-dataset/环境实拍图/裂缝/O1CN01nbsox61mXZAZN1AQ2_!!4611686018427387780-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/评论区截图页面/O1CN01k99uD61zbllnYLKLK_!!4611686018427380093-0-amp.jpg" local/golden-dataset/购物app截图/评论区截图页面/O1CN01k99uD61zbllnYLKLK_!!4611686018427380093-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/购物车页面/O1CN01LkcxjN2MoLoTBFT0K_!!4611686018427384882-0-amp.jpg" local/golden-dataset/购物app截图/购物车页面/O1CN01LkcxjN2MoLoTBFT0K_!!4611686018427384882-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01lpVEej1MUCFN1oaEN_!!4611686018427386701-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01lpVEej1MUCFN1oaEN_!!4611686018427386701-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01K4Ii391Gh7gvnFSFi_!!4611686018427382029-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01K4Ii391Gh7gvnFSFi_!!4611686018427382029-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01Q1649I1M7kndhEM1U_!!4611686018427385868-0-amp.jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN01Q1649I1M7kndhEM1U_!!4611686018427385868-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01aYq4mU1en7enSefwq_!!4611686018427382043-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01aYq4mU1en7enSefwq_!!4611686018427382043-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/退款页面/O1CN01FLU0hA1tecXhSQOr5_!!4611686018427387015-0-amp.jpg" local/golden-dataset/购物app截图/退款页面/O1CN01FLU0hA1tecXhSQOr5_!!4611686018427387015-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01b1uvK4214SEEWTzmj_!!4611686018427386387-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01b1uvK4214SEEWTzmj_!!4611686018427386387-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01tmKiHZ2KlU8zda37y_!!4611686018427386253-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01tmKiHZ2KlU8zda37y_!!4611686018427386253-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01nRuG2o1SYDNQUetyk_!!4611686018427386594-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01nRuG2o1SYDNQUetyk_!!4611686018427386594-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/活动页面/O1CN01JbK7j11kh475eRiUa_!!4611686018427383914-0-amp.jpg" local/golden-dataset/购物app截图/活动页面/O1CN01JbK7j11kh475eRiUa_!!4611686018427383914-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/1724117258798_dc81837c3ddeebf27c6a46ce82ae7ad7.jfif" local/golden-dataset/其他/其他类别图片/1724117258798_dc81837c3ddeebf27c6a46ce82ae7ad7.jfif
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/其他类别图片/O1CN01Pl6OzD1dDZIPIYNev_!!666673702-2-ampmedia.png" local/golden-dataset/其他/其他类别图片/O1CN01Pl6OzD1dDZIPIYNev_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/涂鸦&污渍/O1CN01juvhJj1gz9KDqeYVW_!!4611686018427381956-0-amp.jpg" local/golden-dataset/环境实拍图/涂鸦&污渍/O1CN01juvhJj1gz9KDqeYVW_!!4611686018427381956-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/露出基层/O1CN01WYCR3B1IZujB9O24p_!!4611686018427381100-0-amp.jpg" local/golden-dataset/环境实拍图/露出基层/O1CN01WYCR3B1IZujB9O24p_!!4611686018427381100-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN016YNz4J1vJfelExawk_!!4611686018427383816-0-amp.jpg" local/golden-dataset/购物app截图/商品详情页截图/O1CN016YNz4J1vJfelExawk_!!4611686018427383816-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01jrpzBh28563cUrZYr_!!2206753707880-2-ampmedia.png" local/golden-dataset/购物app截图/商品头图/O1CN01jrpzBh28563cUrZYr_!!2206753707880-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/裂缝/O1CN01UlauaN1J1OUZsShay_!!4611686018427381816-0-amp.jpg" local/golden-dataset/环境实拍图/裂缝/O1CN01UlauaN1J1OUZsShay_!!4611686018427381816-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN015bJ3ib24zeXnlYycq_!!4611686018427382390-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN015bJ3ib24zeXnlYycq_!!4611686018427382390-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN016C0x8L1lSEuQpAGwZ_!!4611686018427381041-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN016C0x8L1lSEuQpAGwZ_!!4611686018427381041-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01CoVaVs1uUpjahCgI4_!!4611686018427383609-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01CoVaVs1uUpjahCgI4_!!4611686018427383609-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01ZNLHVO26Hnr7yza8l_!!4611686018427380373-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01ZNLHVO26Hnr7yza8l_!!4611686018427380373-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01nluoui1i4TYJ7HGyh_!!4611686018427380839-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01nluoui1i4TYJ7HGyh_!!4611686018427380839-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN01HISRel1dDZIM4xWJH_!!666673702-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN01HISRel1dDZIM4xWJH_!!666673702-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/裂缝/O1CN01fxX1Gb1pCu6vOrpKr_!!4611686018427381757-0-amp.jpg" local/golden-dataset/环境实拍图/裂缝/O1CN01fxX1Gb1pCu6vOrpKr_!!4611686018427381757-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01C1xRkh1kCq10L52y0_!!4611686018427383064-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01C1xRkh1kCq10L52y0_!!4611686018427383064-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN01t8eTKV21Dc9dlF0kr_!!4611686018427380087-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN01t8eTKV21Dc9dlF0kr_!!4611686018427380087-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01PHYclC20fiqRYwF3P_!!4611686018427386909-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01PHYclC20fiqRYwF3P_!!4611686018427386909-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01IPxmhH1HmuJB28ibS_!!4611686018427383921-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01IPxmhH1HmuJB28ibS_!!4611686018427383921-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品分类选项/O1CN01AKR8gn1pGZHKhRpI9_!!4611686018427384677-0-amp.jpg" local/golden-dataset/购物app截图/商品分类选项/O1CN01AKR8gn1pGZHKhRpI9_!!4611686018427384677-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01TdBxMI1twwQSiolZA_!!4611686018427387279-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01TdBxMI1twwQSiolZA_!!4611686018427387279-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/孔洞/O1CN0119CyKG1X2gBXTz7nM_!!4611686018427381682-0-amp.jpg" local/golden-dataset/环境实拍图/孔洞/O1CN0119CyKG1X2gBXTz7nM_!!4611686018427381682-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/wall_dataset_v1_organized/起皮掉皮/O1CN01oA1LII1W8nrf1T6ih_!!4611686018427379928-0-amp.jpg" local/golden-dataset/环境实拍图/起皮掉皮/O1CN01oA1LII1W8nrf1T6ih_!!4611686018427379928-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/活动页面/O1CN015BZsDG21ChK0jQFs4_!!4611686018427383989-0-amp.jpg" local/golden-dataset/购物app截图/活动页面/O1CN015BZsDG21ChK0jQFs4_!!4611686018427383989-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品详情页截图/O1CN013dUBX51QXBFdQuct2_!!132581985-2-ampmedia.png" local/golden-dataset/购物app截图/商品详情页截图/O1CN013dUBX51QXBFdQuct2_!!132581985-2-ampmedia.png
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01jHTDy51P0NGWWmYtY_!!4611686018427381042-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN01jHTDy51P0NGWWmYtY_!!4611686018427381042-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01Cv3bWr2CVthLAKXIh_!!2211655608480-0-ampmedia (1).jpg" local/golden-dataset/购物app截图/商品头图/O1CN01Cv3bWr2CVthLAKXIh_!!2211655608480-0-ampmedia (1).jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+mc cp "/home/star/jiaojiao/Label Studio/wall_defect_stack/data/minio/wall-defects/dataset/商品头图/O1CN01JfQQJ82D2sDNkS994_!!4611686018427382120-0-amp.jpg" local/golden-dataset/购物app截图/商品头图/O1CN01JfQQJ82D2sDNkS994_!!4611686018427382120-0-amp.jpg
+if [ $? -eq 0 ]; then ((success++)); fi
+if (( success % 50 == 0 )); then echo "进度: $success/$total"; fi
+
+echo "=== 上传完成: $success/$total ==="

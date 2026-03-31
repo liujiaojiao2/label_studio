@@ -1,0 +1,592 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1764669916",
+  "data": {
+    "annotation": {
+      "id": 34,
+      "result": [
+        {
+          "value": {
+            "choices": [
+              "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe"
+            ]
+          },
+          "id": "A67NxDX8kp",
+          "from_name": "primary_label",
+          "to_name": "image",
+          "type": "choices",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2025-12-02T10:05:16.453629Z",
+      "updated_at": "2025-12-02T10:05:16.453673Z",
+      "draft_created_at": null,
+      "lead_time": 3.062,
+      "prediction": {},
+      "result_count": 1,
+      "unique_id": "f77d6407-81d4-4fc2-b72e-c9191e49a5fc",
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 1571,
+      "project": 3,
+      "completed_by": 1,
+      "updated_by": 1,
+      "parent_prediction": 188,
+      "parent_annotation": null,
+      "last_created_by": null
+    },
+    "project": {
+      "id": 3,
+      "task_number": 1566,
+      "finished_task_number": 5,
+      "total_predictions_number": 1566,
+      "total_annotations_number": 5,
+      "num_tasks_with_annotations": 5,
+      "useful_annotation_number": 5,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "New Project #1",
+      "description": "\u7528\u4e8e\u5899\u9762\u7f3a\u9677\u7efc\u5408\u5206\u6790\u6807\u6ce8",
+      "label_config": "<View>\n  <!-- \u539f\u59cb\u56fe\u7247 -->\n  <Image name=\"image\" value=\"$image\" zoom=\"true\" zoomControl=\"true\" rotateControl=\"true\" />\n\n  <!-- \u4e00\u3001\u4e00\u7ea7\u5206\u7c7b\uff1a\u5fc5\u987b\u662f PRIMARY_LABELS \u91cc\u7684 23 \u4e2a\u4e4b\u4e00 -->\n  <View style=\"margin-top: 20px; padding: 10px; border: 1px solid #ddd;\">\n    <Header value=\"\u2460 \u4e00\u7ea7\u5206\u7c7b\uff08image_type / primary_label\uff09\" />\n    <Choices name=\"primary_label\" toName=\"image\" choice=\"single\" required=\"true\" showInline=\"true\">\n      <Choice value=\"\u5546\u54c1\u5206\u7c7b\u9009\u9879\" />\n      <Choice value=\"\u5546\u54c1\u5934\u56fe\" />\n      <Choice value=\"\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe\" />\n      <Choice value=\"\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09\" />\n      <Choice value=\"\u8ba2\u5355\u8be6\u60c5\u9875\u9762\" />\n      <Choice value=\"\u652f\u4ed8\u9875\u9762\" />\n      <Choice value=\"\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762\" />\n      <Choice value=\"\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762\" />\n      <Choice value=\"\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762\" />\n      <Choice value=\"\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762\" />\n      <Choice value=\"\u9000\u6b3e\u9875\u9762\" />\n      <Choice value=\"\u9000\u8d27\u9875\u9762\" />\n      <Choice value=\"\u6362\u8d27\u9875\u9762\" />\n      <Choice value=\"\u8d2d\u7269\u8f66\u9875\u9762\" />\n      <Choice value=\"\u5e97\u94fa\u9875\u9762\" />\n      <Choice value=\"\u6d3b\u52a8\u9875\u9762\" />\n      <Choice value=\"\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762\" />\n      <Choice value=\"\u8d26\u5355/\u8d26\u6237\u9875\u9762\" />\n      <Choice value=\"\u6295\u8bc9\u4e3e\u62a5\u9875\u9762\" />\n      <Choice value=\"\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)\" />\n      <Choice value=\"\u5916\u90e8APP\u622a\u56fe\" />\n      <Choice value=\"\u5e73\u53f0\u4ecb\u5165\u9875\u9762\" />\n      <Choice value=\"\u5176\u4ed6\u7c7b\u522b\u56fe\u7247\" />\n    </Choices>\n    <Header value=\"\u26a0 \u5bf9\u4e8e\u5899\u9762\u7f3a\u9677\u6570\u636e\uff0c\u672c\u9879\u76ee\u901a\u5e38\u9009\u300e\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)\u300f\" />\n  </View>\n\n  <!-- \u4e8c\u3001\u4e8c\u7ea7\u7f3a\u9677\u7c7b\u522b\uff08\u53ea\u6709\u5f53\u4e00\u7ea7=\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e) \u65f6\u624d\u6709\u610f\u4e49\uff09 -->\n  <View style=\"margin-top: 20px; padding: 10px; border: 1px solid #ddd;\">\n    <Header value=\"\u2461 \u5899\u9762\u7f3a\u9677\u4e8c\u7ea7\u7c7b\u522b\uff08secondary_label\uff09\" />\n    <Choices name=\"secondary_label\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u5b54\u6d1e\" />\n      <Choice value=\"\u88c2\u7f1d\" />\n      <Choice value=\"\u9732\u51fa\u57fa\u5c42\" />\n      <Choice value=\"\u8d77\u76ae\u6389\u76ae\" />\n      <Choice value=\"\u6d82\u9e26&amp;\u6c61\u6e0d\" />\n      <Choice value=\"\u5168\u90e8\u672a\u5206\u7c7b\" />\n    </Choices>\n  </View>\n\n  <!-- \u4e09\u3001\u5899\u9762\u5c5e\u6027\u6807\u7b7e\uff1a\u5b8c\u5168\u5bf9\u5e94 WALL_ATTRIBUTES -->\n  <View style=\"margin-top: 20px; padding: 10px; border: 1px solid #ddd;\">\n    <Header value=\"\u2462 \u5899\u9762\u573a\u666f\u5c5e\u6027\uff08WALL_ATTRIBUTES\uff09\" />\n\n    <!-- environment -->\n    <Header value=\"\u73af\u5883\uff08environment\uff09\" />\n    <Choices name=\"environment\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u5ba4\u5185\" />\n      <Choice value=\"\u5ba4\u5916\" />\n    </Choices>\n\n    <!-- surface_position -->\n    <Header value=\"\u8868\u9762\u4f4d\u7f6e\uff08surface_position\uff09\" />\n    <Choices name=\"surface_position\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u5899\u9762\" />\n      <Choice value=\"\u5730\u9762\" />\n      <Choice value=\"\u5929\u82b1\u677f\" />\n      <Choice value=\"\u9634\u9633\u89d2\" />\n      <Choice value=\"\u5f02\u5f62\u4f4d\u7f6e\" />\n    </Choices>\n\n    <!-- surface_material -->\n    <Header value=\"\u8868\u9762\u6750\u8d28\uff08surface_material\uff09\" />\n    <Choices name=\"surface_material\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u6728\u5934\" />\n      <Choice value=\"\u91d1\u5c5e\" />\n      <Choice value=\"\u74f7\u7816\" />\n      <Choice value=\"\u4e00\u822c\u6750\u8d28\" />\n    </Choices>\n\n    <!-- defect_color -->\n    <Header value=\"\u7f3a\u9677\u989c\u8272\uff08defect_color\uff09\" />\n    <Choices name=\"defect_color\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u767d\u8272\" />\n      <Choice value=\"\u5176\u4ed6\" />\n    </Choices>\n\n    <!-- wet_area -->\n    <Header value=\"\u5e72\u6e7f\u533a\uff08wet_area\uff09\" />\n    <Choices name=\"wet_area\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u5e72\u533a\" />\n      <Choice value=\"\u6e7f\u533a\" />\n    </Choices>\n\n    <!-- water_leak -->\n    <Header value=\"\u6e17\u6f0f\u60c5\u51b5\uff08water_leak\uff09\" />\n    <Choices name=\"water_leak\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u6e17\u6c34\" />\n      <Choice value=\"\u6f0f\u6c34\" />\n      <Choice value=\"\u65e0\u6e17\u6f0f\" />\n    </Choices>\n\n    <!-- defect_area -->\n    <Header value=\"\u7f3a\u9677\u9762\u79ef\u7ea7\u522b\uff08defect_area\uff09\" />\n    <Choices name=\"defect_area\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u70b9\u72b6\u4fee\u8865\" />\n      <Choice value=\"\u5c0f\u9762\u79ef\" />\n      <Choice value=\"\u5927\u9762\u79ef\" />\n    </Choices>\n\n    <!-- reasoning -->\n    <Header value=\"\u5206\u6790\u8bf4\u660e\uff08reasoning\uff0c\u7528\u4e8e\u8bb0\u5f55\u5224\u5b9a\u4f9d\u636e/\u5907\u6ce8\uff09\" />\n    <Textarea name=\"reasoning\" toName=\"image\" rows=\"3\" placeholder=\"\u53ef\u7b80\u8981\u8bf4\u660e\u7f3a\u9677\u539f\u56e0\u3001\u73af\u5883\u56e0\u7d20\u7b49\uff0c\u53ef\u4e3a\u7a7a\" />\n  </View>\n</View>",
+      "parsed_label_config": {
+        "primary_label": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5546\u54c1\u5206\u7c7b\u9009\u9879",
+            "\u5546\u54c1\u5934\u56fe",
+            "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe",
+            "\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09",
+            "\u8ba2\u5355\u8be6\u60c5\u9875\u9762",
+            "\u652f\u4ed8\u9875\u9762",
+            "\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762",
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762",
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762",
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762",
+            "\u9000\u6b3e\u9875\u9762",
+            "\u9000\u8d27\u9875\u9762",
+            "\u6362\u8d27\u9875\u9762",
+            "\u8d2d\u7269\u8f66\u9875\u9762",
+            "\u5e97\u94fa\u9875\u9762",
+            "\u6d3b\u52a8\u9875\u9762",
+            "\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762",
+            "\u8d26\u5355/\u8d26\u6237\u9875\u9762",
+            "\u6295\u8bc9\u4e3e\u62a5\u9875\u9762",
+            "\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)",
+            "\u5916\u90e8APP\u622a\u56fe",
+            "\u5e73\u53f0\u4ecb\u5165\u9875\u9762",
+            "\u5176\u4ed6\u7c7b\u522b\u56fe\u7247"
+          ],
+          "labels_attrs": {
+            "\u5546\u54c1\u5206\u7c7b\u9009\u9879": {
+              "value": "\u5546\u54c1\u5206\u7c7b\u9009\u9879"
+            },
+            "\u5546\u54c1\u5934\u56fe": {
+              "value": "\u5546\u54c1\u5934\u56fe"
+            },
+            "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe": {
+              "value": "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe"
+            },
+            "\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09": {
+              "value": "\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09"
+            },
+            "\u8ba2\u5355\u8be6\u60c5\u9875\u9762": {
+              "value": "\u8ba2\u5355\u8be6\u60c5\u9875\u9762"
+            },
+            "\u652f\u4ed8\u9875\u9762": {
+              "value": "\u652f\u4ed8\u9875\u9762"
+            },
+            "\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762": {
+              "value": "\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762"
+            },
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762": {
+              "value": "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762"
+            },
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762": {
+              "value": "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762"
+            },
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762": {
+              "value": "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762"
+            },
+            "\u9000\u6b3e\u9875\u9762": {
+              "value": "\u9000\u6b3e\u9875\u9762"
+            },
+            "\u9000\u8d27\u9875\u9762": {
+              "value": "\u9000\u8d27\u9875\u9762"
+            },
+            "\u6362\u8d27\u9875\u9762": {
+              "value": "\u6362\u8d27\u9875\u9762"
+            },
+            "\u8d2d\u7269\u8f66\u9875\u9762": {
+              "value": "\u8d2d\u7269\u8f66\u9875\u9762"
+            },
+            "\u5e97\u94fa\u9875\u9762": {
+              "value": "\u5e97\u94fa\u9875\u9762"
+            },
+            "\u6d3b\u52a8\u9875\u9762": {
+              "value": "\u6d3b\u52a8\u9875\u9762"
+            },
+            "\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762": {
+              "value": "\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762"
+            },
+            "\u8d26\u5355/\u8d26\u6237\u9875\u9762": {
+              "value": "\u8d26\u5355/\u8d26\u6237\u9875\u9762"
+            },
+            "\u6295\u8bc9\u4e3e\u62a5\u9875\u9762": {
+              "value": "\u6295\u8bc9\u4e3e\u62a5\u9875\u9762"
+            },
+            "\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)": {
+              "value": "\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)"
+            },
+            "\u5916\u90e8APP\u622a\u56fe": {
+              "value": "\u5916\u90e8APP\u622a\u56fe"
+            },
+            "\u5e73\u53f0\u4ecb\u5165\u9875\u9762": {
+              "value": "\u5e73\u53f0\u4ecb\u5165\u9875\u9762"
+            },
+            "\u5176\u4ed6\u7c7b\u522b\u56fe\u7247": {
+              "value": "\u5176\u4ed6\u7c7b\u522b\u56fe\u7247"
+            }
+          }
+        },
+        "secondary_label": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5b54\u6d1e",
+            "\u88c2\u7f1d",
+            "\u9732\u51fa\u57fa\u5c42",
+            "\u8d77\u76ae\u6389\u76ae",
+            "\u6d82\u9e26&\u6c61\u6e0d",
+            "\u5168\u90e8\u672a\u5206\u7c7b"
+          ],
+          "labels_attrs": {
+            "\u5b54\u6d1e": {
+              "value": "\u5b54\u6d1e"
+            },
+            "\u88c2\u7f1d": {
+              "value": "\u88c2\u7f1d"
+            },
+            "\u9732\u51fa\u57fa\u5c42": {
+              "value": "\u9732\u51fa\u57fa\u5c42"
+            },
+            "\u8d77\u76ae\u6389\u76ae": {
+              "value": "\u8d77\u76ae\u6389\u76ae"
+            },
+            "\u6d82\u9e26&\u6c61\u6e0d": {
+              "value": "\u6d82\u9e26&\u6c61\u6e0d"
+            },
+            "\u5168\u90e8\u672a\u5206\u7c7b": {
+              "value": "\u5168\u90e8\u672a\u5206\u7c7b"
+            }
+          }
+        },
+        "environment": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5ba4\u5185",
+            "\u5ba4\u5916"
+          ],
+          "labels_attrs": {
+            "\u5ba4\u5185": {
+              "value": "\u5ba4\u5185"
+            },
+            "\u5ba4\u5916": {
+              "value": "\u5ba4\u5916"
+            }
+          }
+        },
+        "surface_position": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5899\u9762",
+            "\u5730\u9762",
+            "\u5929\u82b1\u677f",
+            "\u9634\u9633\u89d2",
+            "\u5f02\u5f62\u4f4d\u7f6e"
+          ],
+          "labels_attrs": {
+            "\u5899\u9762": {
+              "value": "\u5899\u9762"
+            },
+            "\u5730\u9762": {
+              "value": "\u5730\u9762"
+            },
+            "\u5929\u82b1\u677f": {
+              "value": "\u5929\u82b1\u677f"
+            },
+            "\u9634\u9633\u89d2": {
+              "value": "\u9634\u9633\u89d2"
+            },
+            "\u5f02\u5f62\u4f4d\u7f6e": {
+              "value": "\u5f02\u5f62\u4f4d\u7f6e"
+            }
+          }
+        },
+        "surface_material": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u6728\u5934",
+            "\u91d1\u5c5e",
+            "\u74f7\u7816",
+            "\u4e00\u822c\u6750\u8d28"
+          ],
+          "labels_attrs": {
+            "\u6728\u5934": {
+              "value": "\u6728\u5934"
+            },
+            "\u91d1\u5c5e": {
+              "value": "\u91d1\u5c5e"
+            },
+            "\u74f7\u7816": {
+              "value": "\u74f7\u7816"
+            },
+            "\u4e00\u822c\u6750\u8d28": {
+              "value": "\u4e00\u822c\u6750\u8d28"
+            }
+          }
+        },
+        "defect_color": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u767d\u8272",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u767d\u8272": {
+              "value": "\u767d\u8272"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "wet_area": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5e72\u533a",
+            "\u6e7f\u533a"
+          ],
+          "labels_attrs": {
+            "\u5e72\u533a": {
+              "value": "\u5e72\u533a"
+            },
+            "\u6e7f\u533a": {
+              "value": "\u6e7f\u533a"
+            }
+          }
+        },
+        "water_leak": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u6e17\u6c34",
+            "\u6f0f\u6c34",
+            "\u65e0\u6e17\u6f0f"
+          ],
+          "labels_attrs": {
+            "\u6e17\u6c34": {
+              "value": "\u6e17\u6c34"
+            },
+            "\u6f0f\u6c34": {
+              "value": "\u6f0f\u6c34"
+            },
+            "\u65e0\u6e17\u6f0f": {
+              "value": "\u65e0\u6e17\u6f0f"
+            }
+          }
+        },
+        "defect_area": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u70b9\u72b6\u4fee\u8865",
+            "\u5c0f\u9762\u79ef",
+            "\u5927\u9762\u79ef"
+          ],
+          "labels_attrs": {
+            "\u70b9\u72b6\u4fee\u8865": {
+              "value": "\u70b9\u72b6\u4fee\u8865"
+            },
+            "\u5c0f\u9762\u79ef": {
+              "value": "\u5c0f\u9762\u79ef"
+            },
+            "\u5927\u9762\u79ef": {
+              "value": "\u5927\u9762\u79ef"
+            }
+          }
+        },
+        "reasoning": {
+          "type": "Textarea",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [],
+          "labels_attrs": {}
+        }
+      },
+      "label_config_hash": 1138153665741914804,
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": false,
+      "evaluate_predictions_automatically": false,
+      "token": "AhbxL7mC9yxEMnu9vubhoJUnN6seAwYWEhTwPcON",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "primary_label": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5546\u54c1\u5206\u7c7b\u9009\u9879": 1.0,
+            "\u5546\u54c1\u5934\u56fe": 1.0,
+            "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe": 1.0,
+            "\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09": 1.0,
+            "\u8ba2\u5355\u8be6\u60c5\u9875\u9762": 1.0,
+            "\u652f\u4ed8\u9875\u9762": 1.0,
+            "\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762": 1.0,
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762": 1.0,
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762": 1.0,
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762": 1.0,
+            "\u9000\u6b3e\u9875\u9762": 1.0,
+            "\u9000\u8d27\u9875\u9762": 1.0,
+            "\u6362\u8d27\u9875\u9762": 1.0,
+            "\u8d2d\u7269\u8f66\u9875\u9762": 1.0,
+            "\u5e97\u94fa\u9875\u9762": 1.0,
+            "\u6d3b\u52a8\u9875\u9762": 1.0,
+            "\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762": 1.0,
+            "\u8d26\u5355/\u8d26\u6237\u9875\u9762": 1.0,
+            "\u6295\u8bc9\u4e3e\u62a5\u9875\u9762": 1.0,
+            "\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)": 1.0,
+            "\u5916\u90e8APP\u622a\u56fe": 1.0,
+            "\u5e73\u53f0\u4ecb\u5165\u9875\u9762": 1.0,
+            "\u5176\u4ed6\u7c7b\u522b\u56fe\u7247": 1.0
+          }
+        },
+        "secondary_label": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5b54\u6d1e": 1.0,
+            "\u88c2\u7f1d": 1.0,
+            "\u9732\u51fa\u57fa\u5c42": 1.0,
+            "\u8d77\u76ae\u6389\u76ae": 1.0,
+            "\u6d82\u9e26&\u6c61\u6e0d": 1.0,
+            "\u5168\u90e8\u672a\u5206\u7c7b": 1.0
+          }
+        },
+        "environment": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5ba4\u5185": 1.0,
+            "\u5ba4\u5916": 1.0
+          }
+        },
+        "surface_position": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5899\u9762": 1.0,
+            "\u5730\u9762": 1.0,
+            "\u5929\u82b1\u677f": 1.0,
+            "\u9634\u9633\u89d2": 1.0,
+            "\u5f02\u5f62\u4f4d\u7f6e": 1.0
+          }
+        },
+        "surface_material": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u6728\u5934": 1.0,
+            "\u91d1\u5c5e": 1.0,
+            "\u74f7\u7816": 1.0,
+            "\u4e00\u822c\u6750\u8d28": 1.0
+          }
+        },
+        "defect_color": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u767d\u8272": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "wet_area": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5e72\u533a": 1.0,
+            "\u6e7f\u533a": 1.0
+          }
+        },
+        "water_leak": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u6e17\u6c34": 1.0,
+            "\u6f0f\u6c34": 1.0,
+            "\u65e0\u6e17\u6f0f": 1.0
+          }
+        },
+        "defect_area": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u70b9\u72b6\u4fee\u8865": 1.0,
+            "\u5c0f\u9762\u79ef": 1.0,
+            "\u5927\u9762\u79ef": 1.0
+          }
+        },
+        "reasoning": {
+          "overall": 1.0,
+          "type": "Textarea",
+          "labels": {}
+        }
+      },
+      "model_version": "",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2025-12-01T10:01:57.735631Z",
+      "updated_at": "2025-12-02T01:54:05.220704Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "custom_task_lock_ttl": null,
+      "organization": 1,
+      "created_by": 1
+    },
+    "task": {
+      "id": 1571,
+      "data": {
+        "image": "s3://wall-defects/20251125/1702626410811_5966ca349a47404ae45efa74cb5d8076.jfif"
+      },
+      "meta": {},
+      "created_at": "2025-12-01T10:31:16.062626Z",
+      "updated_at": "2025-12-02T10:05:16.481377Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 5,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "updated_by": 1,
+      "file_upload": null,
+      "comment_authors": []
+    }
+  }
+}

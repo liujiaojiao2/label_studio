@@ -1,0 +1,670 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1770629093",
+  "data": {
+    "annotation": {
+      "id": 2411,
+      "result": [
+        {
+          "value": {
+            "choices": [
+              "\u8d2d\u7269app\u622a\u56fe"
+            ]
+          },
+          "id": "IpAXxMiD3h",
+          "from_name": "v_primary",
+          "to_name": "v_image",
+          "type": "choices",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "choices": [
+              "\u89c4\u683c\u5206\u7c7b"
+            ]
+          },
+          "id": "jiKX_9ewjE",
+          "from_name": "v_sub_app",
+          "to_name": "v_image",
+          "type": "choices",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "text": [
+              "[\n  {\n    \"product_name\": \"\u7acb\u90a6\u674f\u5b50\u7070 OW067 - 4\",\n    \"price_current\": \"53.1\",\n    \"quantity\": 1,\n    \"sku\": \"\u65e0\"\n  }\n]"
+            ]
+          },
+          "id": "ipUWKTBqyC",
+          "from_name": "v_txt_notes",
+          "to_name": "v_image",
+          "type": "textarea",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "text": [
+              "The image is a screenshot of a Taobao app interface. It shows product details and SKU selection options for a paint product. There are price, quantity, and different color - specification choices."
+            ]
+          },
+          "id": "EWSaHsjEAq",
+          "from_name": "v_txt_ai",
+          "to_name": "v_image",
+          "type": "textarea",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2026-02-09T09:24:53.843032Z",
+      "updated_at": "2026-02-09T09:24:53.843062Z",
+      "draft_created_at": null,
+      "lead_time": 2.515,
+      "prediction": {},
+      "result_count": 4,
+      "unique_id": "619d720c-ab3c-435b-aa62-89e11ebba306",
+      "import_id": null,
+      "last_action": null,
+      "bulk_created": false,
+      "task": 9740,
+      "project": 5,
+      "completed_by": 8,
+      "updated_by": 8,
+      "parent_prediction": 4401,
+      "parent_annotation": null,
+      "last_created_by": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 350,
+      "finished_task_number": 18,
+      "total_predictions_number": 347,
+      "total_annotations_number": 18,
+      "num_tasks_with_annotations": 18,
+      "useful_annotation_number": 18,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "New Project #3",
+      "description": "\u56fe\u7247\u8bc6\u522b2.0",
+      "label_config": "<View>\n  <Image name=\"v_image\" value=\"$image\" zoom=\"true\" width=\"100%\"/>\n\n  <View style=\"padding: 10px; background: #f0f0f0; margin-bottom: 10px;\">\n    <Header value=\"\ud83d\udccb \u4e00\u7ea7\u5206\u7c7b (\u5fc5\u9009)\"/>\n    <Choices name=\"v_primary\" toName=\"v_image\" required=\"true\">\n      <Choice value=\"\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe\"/>\n      <Choice value=\"\u8d2d\u7269app\u622a\u56fe\"/>\n      <Choice value=\"\u5236\u5f0f\u56fe\u7247\"/>\n      <Choice value=\"\u73af\u5883\u5b9e\u62cd\u56fe\"/>\n      <Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n  </View>\n\n  <View visibleWhen=\"choice-selected\" whenTagName=\"v_primary\" whenChoiceValue=\"\u8d2d\u7269app\u622a\u56fe\">\n    <Header value=\"\ud83d\uded2 \u8d2d\u7269app\u622a\u56fe - \u9875\u9762\u7c7b\u578b\"/>\n    <Choices name=\"v_sub_app\" toName=\"v_image\">\n      <Choice value=\"\u5546\u54c1\u5934\u56fe\"/>\n      <Choice value=\"\u5546\u54c1\u8be6\u60c5\u9875\"/>\n      <Choice value=\"\u89c4\u683c\u5206\u7c7b\"/>\n      <Choice value=\"\u8ba2\u5355\u8be6\u60c5\u9875\"/>\n      <Choice value=\"\u8d2d\u7269\u8f66\u9875\"/>\n      <Choice value=\"\u8bc4\u8bba\u533a\"/>\n      <Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n  </View>\n\n  <View visibleWhen=\"choice-selected\" whenTagName=\"v_primary\" whenChoiceValue=\"\u5236\u5f0f\u56fe\u7247\">\n    <Header value=\"\ud83d\udcd0 \u5236\u5f0f\u56fe\u7247 - \u7c7b\u578b\"/>\n    <Choices name=\"v_sub_std\" toName=\"v_image\">\n      <Choice value=\"\u6237\u578b\u56fe\"/>\n      <Choice value=\"\u88c5\u4fee\u56fe\"/>\n      <Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n  </View>\n\n  <View visibleWhen=\"choice-selected\" whenTagName=\"v_primary\" whenChoiceValue=\"\u73af\u5883\u5b9e\u62cd\u56fe\">\n    <Header value=\"\ud83c\udfe0 \u73af\u5883\u5b9e\u62cd\u56fe - \u8be6\u7ec6\u5c5e\u6027\"/>\n    \n    <Header value=\"1\ufe0f\u20e3 \u73af\u5883\u4f4d\u7f6e\" size=\"5\"/>\n    <Choices name=\"v_env_pos\" toName=\"v_image\">\n      <Choice value=\"\u9633\u53f0\"/><Choice value=\"\u53a8\u623f\"/><Choice value=\"\u536b\u751f\u95f4\"/><Choice value=\"\u5ba2\u5385\"/><Choice value=\"\u5367\u5ba4\"/><Choice value=\"\u5ba4\u5916\"/><Choice value=\"\u5176\u4ed6\u5ba4\u5185\"/><Choice value=\"\u65e0\u6cd5\u5224\u65ad\"/>\n    </Choices>\n\n    <Header value=\"2\ufe0f\u20e3 \u5177\u4f53\u4f4d\u7f6e\" size=\"5\"/>\n    <Choices name=\"v_env_loc\" toName=\"v_image\">\n      <Choice value=\"\u5899\u9762\"/><Choice value=\"\u5730\u9762\"/><Choice value=\"\u5929\u82b1\u677f\"/><Choice value=\"\u5c4b\u9876\"/><Choice value=\"\u95e8\u6846/\u7a97\u6846\"/><Choice value=\"\u67dc\u4f53\"/><Choice value=\"\u74f7\u7816\u7f1d\u9699\"/><Choice value=\"\u8e22\u811a\u7ebf\"/><Choice value=\"\u6c34\u6c60\"/><Choice value=\"\u9a6c\u6876\"/><Choice value=\"\u9634\u9633\u89d2\"/><Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n\n    <Header value=\"3\ufe0f\u20e3 \u8868\u9762\u6750\u8d28\" size=\"5\"/>\n    <Choices name=\"v_env_mat\" toName=\"v_image\">\n      <Choice value=\"\u817b\u5b50\u5c42\"/><Choice value=\"\u4e73\u80f6\u6f06\u6d82\u5c42\"/><Choice value=\"\u6c34\u6ce5/\u6df7\u51dd\u571f\"/><Choice value=\"\u74f7\u7816\"/><Choice value=\"\u6728\u6750\"/><Choice value=\"\u91d1\u5c5e\"/><Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n\n    <Header value=\"4\ufe0f\u20e3 \u95ee\u9898\u7c7b\u578b\" size=\"5\"/>\n    <Choices name=\"v_env_prob\" toName=\"v_image\">\n      <Choice value=\"\u5b8c\u597d\u65e7\u5899\u9762\"/>\n      <Choice value=\"\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d\"/>\n      <Choice value=\"\u6c61\u6e0d&amp;\u6d82\u9e26\"/>\n      <Choice value=\"\u6389\u76ae&amp;\u8d77\u76ae\"/>\n      <Choice value=\"\u5f00\u88c2&amp;\u5b54\u6d1e\"/>\n      <Choice value=\"\u9732\u51fa\u57fa\u5c42\"/>\n      <Choice value=\"\u7a7a\u9f13&amp;\u7fd8\u8fb9\"/>\n      <Choice value=\"\u53d1\u9709&amp;\u8fd4\u78b1\"/>\n      <Choice value=\"\u7f1d\u9699\u8131\u843d\"/>\n      <Choice value=\"\u751f\u9508\"/>\n      <Choice value=\"\u7f3a\u89d2&amp;\u7834\u635f\"/>\n      <Choice value=\"\u65e0\u660e\u663e\u7f3a\u9677\"/>\n      <Choice value=\"\u65e0\u6cd5\u8bc6\u522b\"/>\n    </Choices>\n  </View>\n\n  <View style=\"margin-top: 20px; border-top: 1px solid #ccc;\">\n    <Header value=\"\ud83d\udecd\ufe0f \u5546\u54c1\u4fe1\u606f (\u53ef\u9009)\"/>\n    <Taxonomy name=\"v_tax_prod\" toName=\"v_image\">\n      <Choice value=\"\u5305\u542b\u5546\u54c1\u4fe1\u606f\">\n        <Choice value=\"\u5546\u54c1\u540d\u79f0\"/><Choice value=\"\u4ef7\u683c\"/><Choice value=\"\u89c4\u683c/SKU\"/>\n      </Choice>\n    </Taxonomy>\n\n    <Header value=\"\ud83d\udcdd \u5907\u6ce8\u4fe1\u606f\"/>\n    <TextArea name=\"v_txt_notes\" toName=\"v_image\" placeholder=\"\u8bf7\u8f93\u5165\u5907\u6ce8...\"/>\n\n    <Header value=\"\ud83e\udd16 AI \u63a8\u7406\u7ed3\u679c\"/>\n    <TextArea name=\"v_txt_ai\" toName=\"v_image\" editable=\"false\"/>\n  </View>\n</View>",
+      "parsed_label_config": {
+        "v_primary": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe",
+            "\u8d2d\u7269app\u622a\u56fe",
+            "\u5236\u5f0f\u56fe\u7247",
+            "\u73af\u5883\u5b9e\u62cd\u56fe",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe": {
+              "value": "\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe"
+            },
+            "\u8d2d\u7269app\u622a\u56fe": {
+              "value": "\u8d2d\u7269app\u622a\u56fe"
+            },
+            "\u5236\u5f0f\u56fe\u7247": {
+              "value": "\u5236\u5f0f\u56fe\u7247"
+            },
+            "\u73af\u5883\u5b9e\u62cd\u56fe": {
+              "value": "\u73af\u5883\u5b9e\u62cd\u56fe"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_sub_app": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5546\u54c1\u5934\u56fe",
+            "\u5546\u54c1\u8be6\u60c5\u9875",
+            "\u89c4\u683c\u5206\u7c7b",
+            "\u8ba2\u5355\u8be6\u60c5\u9875",
+            "\u8d2d\u7269\u8f66\u9875",
+            "\u8bc4\u8bba\u533a",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u5546\u54c1\u5934\u56fe": {
+              "value": "\u5546\u54c1\u5934\u56fe"
+            },
+            "\u5546\u54c1\u8be6\u60c5\u9875": {
+              "value": "\u5546\u54c1\u8be6\u60c5\u9875"
+            },
+            "\u89c4\u683c\u5206\u7c7b": {
+              "value": "\u89c4\u683c\u5206\u7c7b"
+            },
+            "\u8ba2\u5355\u8be6\u60c5\u9875": {
+              "value": "\u8ba2\u5355\u8be6\u60c5\u9875"
+            },
+            "\u8d2d\u7269\u8f66\u9875": {
+              "value": "\u8d2d\u7269\u8f66\u9875"
+            },
+            "\u8bc4\u8bba\u533a": {
+              "value": "\u8bc4\u8bba\u533a"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_sub_std": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u6237\u578b\u56fe",
+            "\u88c5\u4fee\u56fe",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u6237\u578b\u56fe": {
+              "value": "\u6237\u578b\u56fe"
+            },
+            "\u88c5\u4fee\u56fe": {
+              "value": "\u88c5\u4fee\u56fe"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_env_pos": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u9633\u53f0",
+            "\u53a8\u623f",
+            "\u536b\u751f\u95f4",
+            "\u5ba2\u5385",
+            "\u5367\u5ba4",
+            "\u5ba4\u5916",
+            "\u5176\u4ed6\u5ba4\u5185",
+            "\u65e0\u6cd5\u5224\u65ad"
+          ],
+          "labels_attrs": {
+            "\u9633\u53f0": {
+              "value": "\u9633\u53f0"
+            },
+            "\u53a8\u623f": {
+              "value": "\u53a8\u623f"
+            },
+            "\u536b\u751f\u95f4": {
+              "value": "\u536b\u751f\u95f4"
+            },
+            "\u5ba2\u5385": {
+              "value": "\u5ba2\u5385"
+            },
+            "\u5367\u5ba4": {
+              "value": "\u5367\u5ba4"
+            },
+            "\u5ba4\u5916": {
+              "value": "\u5ba4\u5916"
+            },
+            "\u5176\u4ed6\u5ba4\u5185": {
+              "value": "\u5176\u4ed6\u5ba4\u5185"
+            },
+            "\u65e0\u6cd5\u5224\u65ad": {
+              "value": "\u65e0\u6cd5\u5224\u65ad"
+            }
+          }
+        },
+        "v_env_loc": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5899\u9762",
+            "\u5730\u9762",
+            "\u5929\u82b1\u677f",
+            "\u5c4b\u9876",
+            "\u95e8\u6846/\u7a97\u6846",
+            "\u67dc\u4f53",
+            "\u74f7\u7816\u7f1d\u9699",
+            "\u8e22\u811a\u7ebf",
+            "\u6c34\u6c60",
+            "\u9a6c\u6876",
+            "\u9634\u9633\u89d2",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u5899\u9762": {
+              "value": "\u5899\u9762"
+            },
+            "\u5730\u9762": {
+              "value": "\u5730\u9762"
+            },
+            "\u5929\u82b1\u677f": {
+              "value": "\u5929\u82b1\u677f"
+            },
+            "\u5c4b\u9876": {
+              "value": "\u5c4b\u9876"
+            },
+            "\u95e8\u6846/\u7a97\u6846": {
+              "value": "\u95e8\u6846/\u7a97\u6846"
+            },
+            "\u67dc\u4f53": {
+              "value": "\u67dc\u4f53"
+            },
+            "\u74f7\u7816\u7f1d\u9699": {
+              "value": "\u74f7\u7816\u7f1d\u9699"
+            },
+            "\u8e22\u811a\u7ebf": {
+              "value": "\u8e22\u811a\u7ebf"
+            },
+            "\u6c34\u6c60": {
+              "value": "\u6c34\u6c60"
+            },
+            "\u9a6c\u6876": {
+              "value": "\u9a6c\u6876"
+            },
+            "\u9634\u9633\u89d2": {
+              "value": "\u9634\u9633\u89d2"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_env_mat": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u817b\u5b50\u5c42",
+            "\u4e73\u80f6\u6f06\u6d82\u5c42",
+            "\u6c34\u6ce5/\u6df7\u51dd\u571f",
+            "\u74f7\u7816",
+            "\u6728\u6750",
+            "\u91d1\u5c5e",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u817b\u5b50\u5c42": {
+              "value": "\u817b\u5b50\u5c42"
+            },
+            "\u4e73\u80f6\u6f06\u6d82\u5c42": {
+              "value": "\u4e73\u80f6\u6f06\u6d82\u5c42"
+            },
+            "\u6c34\u6ce5/\u6df7\u51dd\u571f": {
+              "value": "\u6c34\u6ce5/\u6df7\u51dd\u571f"
+            },
+            "\u74f7\u7816": {
+              "value": "\u74f7\u7816"
+            },
+            "\u6728\u6750": {
+              "value": "\u6728\u6750"
+            },
+            "\u91d1\u5c5e": {
+              "value": "\u91d1\u5c5e"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_env_prob": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5b8c\u597d\u65e7\u5899\u9762",
+            "\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d",
+            "\u6c61\u6e0d&\u6d82\u9e26",
+            "\u6389\u76ae&\u8d77\u76ae",
+            "\u5f00\u88c2&\u5b54\u6d1e",
+            "\u9732\u51fa\u57fa\u5c42",
+            "\u7a7a\u9f13&\u7fd8\u8fb9",
+            "\u53d1\u9709&\u8fd4\u78b1",
+            "\u7f1d\u9699\u8131\u843d",
+            "\u751f\u9508",
+            "\u7f3a\u89d2&\u7834\u635f",
+            "\u65e0\u660e\u663e\u7f3a\u9677",
+            "\u65e0\u6cd5\u8bc6\u522b"
+          ],
+          "labels_attrs": {
+            "\u5b8c\u597d\u65e7\u5899\u9762": {
+              "value": "\u5b8c\u597d\u65e7\u5899\u9762"
+            },
+            "\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d": {
+              "value": "\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d"
+            },
+            "\u6c61\u6e0d&\u6d82\u9e26": {
+              "value": "\u6c61\u6e0d&\u6d82\u9e26"
+            },
+            "\u6389\u76ae&\u8d77\u76ae": {
+              "value": "\u6389\u76ae&\u8d77\u76ae"
+            },
+            "\u5f00\u88c2&\u5b54\u6d1e": {
+              "value": "\u5f00\u88c2&\u5b54\u6d1e"
+            },
+            "\u9732\u51fa\u57fa\u5c42": {
+              "value": "\u9732\u51fa\u57fa\u5c42"
+            },
+            "\u7a7a\u9f13&\u7fd8\u8fb9": {
+              "value": "\u7a7a\u9f13&\u7fd8\u8fb9"
+            },
+            "\u53d1\u9709&\u8fd4\u78b1": {
+              "value": "\u53d1\u9709&\u8fd4\u78b1"
+            },
+            "\u7f1d\u9699\u8131\u843d": {
+              "value": "\u7f1d\u9699\u8131\u843d"
+            },
+            "\u751f\u9508": {
+              "value": "\u751f\u9508"
+            },
+            "\u7f3a\u89d2&\u7834\u635f": {
+              "value": "\u7f3a\u89d2&\u7834\u635f"
+            },
+            "\u65e0\u660e\u663e\u7f3a\u9677": {
+              "value": "\u65e0\u660e\u663e\u7f3a\u9677"
+            },
+            "\u65e0\u6cd5\u8bc6\u522b": {
+              "value": "\u65e0\u6cd5\u8bc6\u522b"
+            }
+          }
+        },
+        "v_tax_prod": {
+          "type": "Taxonomy",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5305\u542b\u5546\u54c1\u4fe1\u606f",
+            "\u5546\u54c1\u540d\u79f0",
+            "\u4ef7\u683c",
+            "\u89c4\u683c/SKU"
+          ],
+          "labels_attrs": {
+            "\u5305\u542b\u5546\u54c1\u4fe1\u606f": {
+              "value": "\u5305\u542b\u5546\u54c1\u4fe1\u606f"
+            },
+            "\u5546\u54c1\u540d\u79f0": {
+              "value": "\u5546\u54c1\u540d\u79f0"
+            },
+            "\u4ef7\u683c": {
+              "value": "\u4ef7\u683c"
+            },
+            "\u89c4\u683c/SKU": {
+              "value": "\u89c4\u683c/SKU"
+            }
+          }
+        },
+        "v_txt_notes": {
+          "type": "TextArea",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [],
+          "labels_attrs": {}
+        },
+        "v_txt_ai": {
+          "type": "TextArea",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [],
+          "labels_attrs": {}
+        }
+      },
+      "label_config_hash": -8878877318256749998,
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": false,
+      "token": "bebDzfaW7a7eQRLucFgUTFuGKOPaddV1JJZjedOB",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "v_primary": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe": 1.0,
+            "\u8d2d\u7269app\u622a\u56fe": 1.0,
+            "\u5236\u5f0f\u56fe\u7247": 1.0,
+            "\u73af\u5883\u5b9e\u62cd\u56fe": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_sub_app": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5546\u54c1\u5934\u56fe": 1.0,
+            "\u5546\u54c1\u8be6\u60c5\u9875": 1.0,
+            "\u89c4\u683c\u5206\u7c7b": 1.0,
+            "\u8ba2\u5355\u8be6\u60c5\u9875": 1.0,
+            "\u8d2d\u7269\u8f66\u9875": 1.0,
+            "\u8bc4\u8bba\u533a": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_sub_std": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u6237\u578b\u56fe": 1.0,
+            "\u88c5\u4fee\u56fe": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_env_pos": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u9633\u53f0": 1.0,
+            "\u53a8\u623f": 1.0,
+            "\u536b\u751f\u95f4": 1.0,
+            "\u5ba2\u5385": 1.0,
+            "\u5367\u5ba4": 1.0,
+            "\u5ba4\u5916": 1.0,
+            "\u5176\u4ed6\u5ba4\u5185": 1.0,
+            "\u65e0\u6cd5\u5224\u65ad": 1.0
+          }
+        },
+        "v_env_loc": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5899\u9762": 1.0,
+            "\u5730\u9762": 1.0,
+            "\u5929\u82b1\u677f": 1.0,
+            "\u5c4b\u9876": 1.0,
+            "\u95e8\u6846/\u7a97\u6846": 1.0,
+            "\u67dc\u4f53": 1.0,
+            "\u74f7\u7816\u7f1d\u9699": 1.0,
+            "\u8e22\u811a\u7ebf": 1.0,
+            "\u6c34\u6c60": 1.0,
+            "\u9a6c\u6876": 1.0,
+            "\u9634\u9633\u89d2": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_env_mat": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u817b\u5b50\u5c42": 1.0,
+            "\u4e73\u80f6\u6f06\u6d82\u5c42": 1.0,
+            "\u6c34\u6ce5/\u6df7\u51dd\u571f": 1.0,
+            "\u74f7\u7816": 1.0,
+            "\u6728\u6750": 1.0,
+            "\u91d1\u5c5e": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_env_prob": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5b8c\u597d\u65e7\u5899\u9762": 1.0,
+            "\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d": 1.0,
+            "\u6c61\u6e0d&\u6d82\u9e26": 1.0,
+            "\u6389\u76ae&\u8d77\u76ae": 1.0,
+            "\u5f00\u88c2&\u5b54\u6d1e": 1.0,
+            "\u9732\u51fa\u57fa\u5c42": 1.0,
+            "\u7a7a\u9f13&\u7fd8\u8fb9": 1.0,
+            "\u53d1\u9709&\u8fd4\u78b1": 1.0,
+            "\u7f1d\u9699\u8131\u843d": 1.0,
+            "\u751f\u9508": 1.0,
+            "\u7f3a\u89d2&\u7834\u635f": 1.0,
+            "\u65e0\u660e\u663e\u7f3a\u9677": 1.0,
+            "\u65e0\u6cd5\u8bc6\u522b": 1.0
+          }
+        },
+        "v_tax_prod": {
+          "overall": 1.0,
+          "type": "Taxonomy",
+          "labels": {
+            "\u5305\u542b\u5546\u54c1\u4fe1\u606f": 1.0,
+            "\u5546\u54c1\u540d\u79f0": 1.0,
+            "\u4ef7\u683c": 1.0,
+            "\u89c4\u683c/SKU": 1.0
+          }
+        },
+        "v_txt_notes": {
+          "overall": 1.0,
+          "type": "TextArea",
+          "labels": {}
+        },
+        "v_txt_ai": {
+          "overall": 1.0,
+          "type": "TextArea",
+          "labels": {}
+        }
+      },
+      "model_version": "ML Backend",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2026-02-04T01:40:35.423179Z",
+      "updated_at": "2026-02-09T08:47:58.699883Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "custom_task_lock_ttl": null,
+      "organization": 1,
+      "created_by": 1
+    },
+    "task": {
+      "id": 9740,
+      "data": {
+        "image": "s3://golden-dataset/\u8d2d\u7269app\u622a\u56fe/\u5546\u54c1\u5206\u7c7b\u9009\u9879/O1CN014pehaN1ud4p2Ze9SE_!!4611686018427386075-0-amp.jpg"
+      },
+      "meta": {},
+      "created_at": "2026-02-04T07:57:59.133887Z",
+      "updated_at": "2026-02-09T09:24:53.871206Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 218,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "updated_by": 8,
+      "file_upload": null,
+      "comment_authors": []
+    }
+  }
+}

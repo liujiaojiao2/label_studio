@@ -1,0 +1,1839 @@
+{
+  "event": "TASKS_CREATED",
+  "job_id": "1770347765",
+  "data": {
+    "tasks": [
+      {
+        "id": 9873,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u5b54\u6d1e/O1CN01S5GBt525rhHRD1g5f_!!4611686018427385212-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.457993Z",
+        "updated_at": "2026-02-06T03:16:05.458013Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 351,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9874,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u5b54\u6d1e/O1CN01VeYBua1NIZobbeoEa_!!4611686018427384539-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.463924Z",
+        "updated_at": "2026-02-06T03:16:05.463938Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 352,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9875,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u5b54\u6d1e/O1CN01aV2XoZ1Ldz3TO2pWD_!!4611686018427382139-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.467856Z",
+        "updated_at": "2026-02-06T03:16:05.467870Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 353,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9876,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u5b54\u6d1e/O1CN01gFtFQ51Oz075otfqr_!!4611686018427383375-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.471695Z",
+        "updated_at": "2026-02-06T03:16:05.471709Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 354,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9877,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u5b54\u6d1e/O1CN01h5EQNx1x7QITIREW5_!!4611686018427386284-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.475666Z",
+        "updated_at": "2026-02-06T03:16:05.475680Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 355,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9878,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u5b54\u6d1e/O1CN01oc8DOg1KzDqY0QeGB_!!4611686018427383090-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.479417Z",
+        "updated_at": "2026-02-06T03:16:05.479431Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 356,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9879,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u5b54\u6d1e/O1CN01pFabc42ITVMaNg88Z_!!4611686018427386199-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.483427Z",
+        "updated_at": "2026-02-06T03:16:05.483442Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 357,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9880,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u5b54\u6d1e/O1CN01t8eTKV21Dc9dlF0kr_!!4611686018427380087-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.487433Z",
+        "updated_at": "2026-02-06T03:16:05.487448Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 358,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9881,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN010ZQNal2KzDz7xXkK0_!!4611686018427380139-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.491569Z",
+        "updated_at": "2026-02-06T03:16:05.491584Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 359,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9882,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN017OtdH01oI6zzcxAbm_!!4611686018427387121-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.495478Z",
+        "updated_at": "2026-02-06T03:16:05.495492Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 360,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9883,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01ASKS9A1V6E1Dul3cD_!!4611686018427385435-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.499324Z",
+        "updated_at": "2026-02-06T03:16:05.499338Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 361,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9884,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01HyPr6O1GZnOGEFkn2_!!4611686018427385437-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.503170Z",
+        "updated_at": "2026-02-06T03:16:05.503184Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 362,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9885,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01ISUv4W1YwO0za1JV2_!!4611686018427385731-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.507044Z",
+        "updated_at": "2026-02-06T03:16:05.507058Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 363,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9886,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01JfZ1hP22j2x4IsboN_!!4611686018427386867-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.510996Z",
+        "updated_at": "2026-02-06T03:16:05.511010Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 364,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9887,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01K1AZBn1C9uVRoyjpq_!!4611686018427386183-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.514840Z",
+        "updated_at": "2026-02-06T03:16:05.514855Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 365,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9888,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01KH25Dx20CPUtKQ2kS_!!4611686018427381053-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.518692Z",
+        "updated_at": "2026-02-06T03:16:05.518706Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 366,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9889,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01MLT3nK1x3l80S5d0K_!!4611686018427380628-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.522452Z",
+        "updated_at": "2026-02-06T03:16:05.522466Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 367,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9890,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01OYveZi27teC2mjiuh_!!4611686018427387855-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.526333Z",
+        "updated_at": "2026-02-06T03:16:05.526347Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 368,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9891,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01eoTtXw27Zx7swrE2b_!!4611686018427386948-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.530137Z",
+        "updated_at": "2026-02-06T03:16:05.530151Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 369,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9892,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01f1wOlk2A2vPaIdNm9_!!4611686018427381730-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.534056Z",
+        "updated_at": "2026-02-06T03:16:05.534070Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 370,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9893,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01gXeYCS1JB0ll2ZJz9_!!4611686018427386157-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.538005Z",
+        "updated_at": "2026-02-06T03:16:05.538019Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 371,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9894,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01jIWsnz2EukQ51pJO2_!!4611686018427385013-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.542162Z",
+        "updated_at": "2026-02-06T03:16:05.542176Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 372,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9895,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01jidRnH1kOHsHpn08K_!!4611686018427385505-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.546017Z",
+        "updated_at": "2026-02-06T03:16:05.546031Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 373,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9896,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01lI8sVL1LDQ5FN6LMc_!!4611686018427380273-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.549861Z",
+        "updated_at": "2026-02-06T03:16:05.549875Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 374,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9897,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01rNBEMm26DgI7bOVds_!!4611686018427382588-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.553699Z",
+        "updated_at": "2026-02-06T03:16:05.553713Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 375,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9898,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01tT4Dw41vtqzFc9LIR_!!4611686018427383559-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.557535Z",
+        "updated_at": "2026-02-06T03:16:05.557606Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 376,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9899,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01vEjI571jD0XXA6Uat_!!4611686018427385153-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.561476Z",
+        "updated_at": "2026-02-06T03:16:05.561490Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 377,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9900,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u6d82\u9e26&\u6c61\u6e0d/O1CN01wOH3xd1c6rvWeF1Uj_!!4611686018427385632-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.567243Z",
+        "updated_at": "2026-02-06T03:16:05.567257Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 378,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9901,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN011Usgp51KJ5POd0BEQ_!!4611686018427380390-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.571222Z",
+        "updated_at": "2026-02-06T03:16:05.571237Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 379,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9902,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN014YpEsc24oCdt4DW89_!!4611686018427386797-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.575238Z",
+        "updated_at": "2026-02-06T03:16:05.575252Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 380,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9903,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01IUxumy1Nk3XQ98mK4_!!4611686018427383991-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.579276Z",
+        "updated_at": "2026-02-06T03:16:05.579290Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 381,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9904,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01M99h7P26BOJIsQBA8_!!4611686018427381671-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.583191Z",
+        "updated_at": "2026-02-06T03:16:05.583205Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 382,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9905,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01PQccbK1EWTFRJA46L_!!4611686018427385223-2-amp.png"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.587162Z",
+        "updated_at": "2026-02-06T03:16:05.587176Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 383,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9906,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01aPa4mv1bHZWgZUMsX_!!4611686018427387056-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.591052Z",
+        "updated_at": "2026-02-06T03:16:05.591066Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 384,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9907,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01dGaeCH1rO0wy9qM3D_!!4611686018427380548-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.594998Z",
+        "updated_at": "2026-02-06T03:16:05.595012Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 385,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9908,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01fBZfB21r1ZZrjASeY_!!4611686018427387283-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.598906Z",
+        "updated_at": "2026-02-06T03:16:05.598921Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 386,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9909,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01fjTZjw22z4lylPFX3_!!4611686018427382278-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.602744Z",
+        "updated_at": "2026-02-06T03:16:05.602758Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 387,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9910,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01fxX1Gb1pCu6vOrpKr_!!4611686018427381757-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.606662Z",
+        "updated_at": "2026-02-06T03:16:05.606676Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 388,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9911,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01gMwaJK1DAeoABDunV_!!4611686018427387552-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.610525Z",
+        "updated_at": "2026-02-06T03:16:05.610539Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 389,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9912,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u88c2\u7f1d/O1CN01rMmXqA1ks3eziJAXC_!!4611686018427386866-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.614398Z",
+        "updated_at": "2026-02-06T03:16:05.614412Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 390,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9913,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN012aLumq2MDi822k555_!!4611686018427385170-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.618295Z",
+        "updated_at": "2026-02-06T03:16:05.618309Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 391,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9914,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN012k1wFi293YNLmad51_!!4611686018427387724-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.622285Z",
+        "updated_at": "2026-02-06T03:16:05.622300Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 392,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9915,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN0148hNQQ1XWRvdIV1Aq_!!4611686018427386323-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.626300Z",
+        "updated_at": "2026-02-06T03:16:05.626314Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 393,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9916,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN014p3Ufk1O9hiWzg1Bl_!!4611686018427382783-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.630224Z",
+        "updated_at": "2026-02-06T03:16:05.630239Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 394,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9917,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN014vlpSB1tFtBtfOuC8_!!4611686018427383009-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.634111Z",
+        "updated_at": "2026-02-06T03:16:05.634125Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 395,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9918,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN015vHF4o2F9P8NCcdJs_!!4611686018427385797-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.638212Z",
+        "updated_at": "2026-02-06T03:16:05.638227Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 396,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9919,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN016ME98e1m4iB6iuhxb_!!4611686018427386501-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.642276Z",
+        "updated_at": "2026-02-06T03:16:05.642290Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 397,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9920,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN016iYi1B2M7l1JE4IMi_!!4611686018427380501-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.646251Z",
+        "updated_at": "2026-02-06T03:16:05.646266Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 398,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9921,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN017flxjV23x4hO6NJu1_!!4611686018427387097-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.650208Z",
+        "updated_at": "2026-02-06T03:16:05.650223Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 399,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9922,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN018CFcS02KoEWI6kl2p_!!4611686018427386243-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.654216Z",
+        "updated_at": "2026-02-06T03:16:05.654230Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 400,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9923,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN018ogULy21SjBS4mJo6_!!4611686018427382584-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.658295Z",
+        "updated_at": "2026-02-06T03:16:05.658310Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 401,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9924,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN01CoVaVs1uUpjahCgI4_!!4611686018427383609-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.662270Z",
+        "updated_at": "2026-02-06T03:16:05.662284Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 402,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9925,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN01E2HeL11QAHUIwpW8M_!!4611686018427384495-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.666337Z",
+        "updated_at": "2026-02-06T03:16:05.666351Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 403,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9926,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN01EbSlkH2JF8Vpb60J5_!!4611686018427387503-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.670321Z",
+        "updated_at": "2026-02-06T03:16:05.670336Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 404,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9927,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN01Eu7UtU1txrB027B2C_!!4611686018427384657-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.674386Z",
+        "updated_at": "2026-02-06T03:16:05.674401Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 405,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9928,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN01Hhdfce1HMnlzUtBmc_!!4611686018427380696-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.678354Z",
+        "updated_at": "2026-02-06T03:16:05.678368Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 406,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9929,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN01I3Mcy11TsCGyRiQyX_!!4611686018427386005-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.682296Z",
+        "updated_at": "2026-02-06T03:16:05.682310Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 407,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 9930,
+        "data": {
+          "image": "s3://golden-dataset/\u73af\u5883\u5b9e\u62cd\u56fe/\u8d77\u76ae\u6389\u76ae/O1CN01IMAgdc1RCrIEeTXHB_!!4611686018427387772-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2026-02-06T03:16:05.686480Z",
+        "updated_at": "2026-02-06T03:16:05.686496Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 408,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 5,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      }
+    ],
+    "project": {
+      "id": 5,
+      "task_number": 350,
+      "finished_task_number": 0,
+      "total_predictions_number": 0,
+      "total_annotations_number": 0,
+      "num_tasks_with_annotations": 0,
+      "useful_annotation_number": 0,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "New Project #3",
+      "description": "\u56fe\u7247\u8bc6\u522b2.0",
+      "label_config": "<View>\n  <Image name=\"v_image\" value=\"$image\" zoom=\"true\" width=\"100%\"/>\n\n  <View style=\"padding: 10px; background: #f0f0f0; margin-bottom: 10px;\">\n    <Header value=\"\ud83d\udccb \u4e00\u7ea7\u5206\u7c7b (\u5fc5\u9009)\"/>\n    <Choices name=\"v_primary\" toName=\"v_image\" required=\"true\">\n      <Choice value=\"\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe\"/>\n      <Choice value=\"\u8d2d\u7269app\u622a\u56fe\"/>\n      <Choice value=\"\u5236\u5f0f\u56fe\u7247\"/>\n      <Choice value=\"\u73af\u5883\u5b9e\u62cd\u56fe\"/>\n      <Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n  </View>\n\n  <View visibleWhen=\"choice-selected\" whenTagName=\"v_primary\" whenChoiceValue=\"\u8d2d\u7269app\u622a\u56fe\">\n    <Header value=\"\ud83d\uded2 \u8d2d\u7269app\u622a\u56fe - \u9875\u9762\u7c7b\u578b\"/>\n    <Choices name=\"v_sub_app\" toName=\"v_image\">\n      <Choice value=\"\u5546\u54c1\u5934\u56fe\"/>\n      <Choice value=\"\u5546\u54c1\u8be6\u60c5\u9875\"/>\n      <Choice value=\"\u89c4\u683c\u5206\u7c7b\"/>\n      <Choice value=\"\u8ba2\u5355\u8be6\u60c5\u9875\"/>\n      <Choice value=\"\u8d2d\u7269\u8f66\u9875\"/>\n      <Choice value=\"\u8bc4\u8bba\u533a\"/>\n      <Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n  </View>\n\n  <View visibleWhen=\"choice-selected\" whenTagName=\"v_primary\" whenChoiceValue=\"\u5236\u5f0f\u56fe\u7247\">\n    <Header value=\"\ud83d\udcd0 \u5236\u5f0f\u56fe\u7247 - \u7c7b\u578b\"/>\n    <Choices name=\"v_sub_std\" toName=\"v_image\">\n      <Choice value=\"\u6237\u578b\u56fe\"/>\n      <Choice value=\"\u88c5\u4fee\u56fe\"/>\n      <Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n  </View>\n\n  <View visibleWhen=\"choice-selected\" whenTagName=\"v_primary\" whenChoiceValue=\"\u73af\u5883\u5b9e\u62cd\u56fe\">\n    <Header value=\"\ud83c\udfe0 \u73af\u5883\u5b9e\u62cd\u56fe - \u8be6\u7ec6\u5c5e\u6027\"/>\n    \n    <Header value=\"1\ufe0f\u20e3 \u73af\u5883\u4f4d\u7f6e\" size=\"5\"/>\n    <Choices name=\"v_env_pos\" toName=\"v_image\">\n      <Choice value=\"\u9633\u53f0\"/><Choice value=\"\u53a8\u623f\"/><Choice value=\"\u536b\u751f\u95f4\"/><Choice value=\"\u5ba2\u5385\"/><Choice value=\"\u5367\u5ba4\"/><Choice value=\"\u5ba4\u5916\"/><Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n\n    <Header value=\"2\ufe0f\u20e3 \u5177\u4f53\u4f4d\u7f6e\" size=\"5\"/>\n    <Choices name=\"v_env_loc\" toName=\"v_image\">\n      <Choice value=\"\u5899\u9762\"/><Choice value=\"\u5730\u9762\"/><Choice value=\"\u5929\u82b1\u677f\"/><Choice value=\"\u5c4b\u9876\"/><Choice value=\"\u95e8\u6846/\u7a97\u6846\"/><Choice value=\"\u67dc\u4f53\"/><Choice value=\"\u74f7\u7816\u7f1d\u9699\"/><Choice value=\"\u8e22\u811a\u7ebf\"/><Choice value=\"\u6c34\u6c60\"/><Choice value=\"\u9a6c\u6876\"/><Choice value=\"\u9634\u9633\u89d2\"/><Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n\n    <Header value=\"3\ufe0f\u20e3 \u8868\u9762\u6750\u8d28\" size=\"5\"/>\n    <Choices name=\"v_env_mat\" toName=\"v_image\">\n      <Choice value=\"\u817b\u5b50\u5c42\"/><Choice value=\"\u4e73\u80f6\u6f06\u6d82\u5c42\"/><Choice value=\"\u6c34\u6ce5/\u6df7\u51dd\u571f\"/><Choice value=\"\u74f7\u7816\"/><Choice value=\"\u6728\u6750\"/><Choice value=\"\u91d1\u5c5e\"/><Choice value=\"\u5176\u4ed6\"/>\n    </Choices>\n\n    <Header value=\"4\ufe0f\u20e3 \u95ee\u9898\u7c7b\u578b\" size=\"5\"/>\n    <Choices name=\"v_env_prob\" toName=\"v_image\">\n      <Choice value=\"\u5b8c\u597d\u65e7\u5899\u9762\"/>\n      <Choice value=\"\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d\"/>\n      <Choice value=\"\u6c61\u6e0d&amp;\u6d82\u9e26\"/>\n      <Choice value=\"\u6389\u76ae&amp;\u8d77\u76ae\"/>\n      <Choice value=\"\u5f00\u88c2&amp;\u5b54\u6d1e\"/>\n      <Choice value=\"\u9732\u51fa\u57fa\u5c42\"/>\n      <Choice value=\"\u7a7a\u9f13&amp;\u7fd8\u8fb9\"/>\n      <Choice value=\"\u53d1\u9709&amp;\u8fd4\u78b1\"/>\n      <Choice value=\"\u7f1d\u9699\u8131\u843d\"/>\n      <Choice value=\"\u65e0\u660e\u663e\u7f3a\u9677\"/>\n      <Choice value=\"\u65e0\u6cd5\u8bc6\u522b\"/>\n    </Choices>\n  </View>\n\n  <View style=\"margin-top: 20px; border-top: 1px solid #ccc;\">\n    <Header value=\"\ud83d\udecd\ufe0f \u5546\u54c1\u4fe1\u606f (\u53ef\u9009)\"/>\n    <Taxonomy name=\"v_tax_prod\" toName=\"v_image\">\n      <Choice value=\"\u5305\u542b\u5546\u54c1\u4fe1\u606f\">\n        <Choice value=\"\u5546\u54c1\u540d\u79f0\"/><Choice value=\"\u4ef7\u683c\"/><Choice value=\"\u89c4\u683c/SKU\"/>\n      </Choice>\n    </Taxonomy>\n\n    <Header value=\"\ud83d\udcdd \u5907\u6ce8\u4fe1\u606f\"/>\n    <TextArea name=\"v_txt_notes\" toName=\"v_image\" placeholder=\"\u8bf7\u8f93\u5165\u5907\u6ce8...\"/>\n\n    <Header value=\"\ud83e\udd16 AI \u63a8\u7406\u7ed3\u679c\"/>\n    <TextArea name=\"v_txt_ai\" toName=\"v_image\" editable=\"false\"/>\n  </View>\n</View>",
+      "parsed_label_config": {
+        "v_primary": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe",
+            "\u8d2d\u7269app\u622a\u56fe",
+            "\u5236\u5f0f\u56fe\u7247",
+            "\u73af\u5883\u5b9e\u62cd\u56fe",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe": {
+              "value": "\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe"
+            },
+            "\u8d2d\u7269app\u622a\u56fe": {
+              "value": "\u8d2d\u7269app\u622a\u56fe"
+            },
+            "\u5236\u5f0f\u56fe\u7247": {
+              "value": "\u5236\u5f0f\u56fe\u7247"
+            },
+            "\u73af\u5883\u5b9e\u62cd\u56fe": {
+              "value": "\u73af\u5883\u5b9e\u62cd\u56fe"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_sub_app": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5546\u54c1\u5934\u56fe",
+            "\u5546\u54c1\u8be6\u60c5\u9875",
+            "\u89c4\u683c\u5206\u7c7b",
+            "\u8ba2\u5355\u8be6\u60c5\u9875",
+            "\u8d2d\u7269\u8f66\u9875",
+            "\u8bc4\u8bba\u533a",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u5546\u54c1\u5934\u56fe": {
+              "value": "\u5546\u54c1\u5934\u56fe"
+            },
+            "\u5546\u54c1\u8be6\u60c5\u9875": {
+              "value": "\u5546\u54c1\u8be6\u60c5\u9875"
+            },
+            "\u89c4\u683c\u5206\u7c7b": {
+              "value": "\u89c4\u683c\u5206\u7c7b"
+            },
+            "\u8ba2\u5355\u8be6\u60c5\u9875": {
+              "value": "\u8ba2\u5355\u8be6\u60c5\u9875"
+            },
+            "\u8d2d\u7269\u8f66\u9875": {
+              "value": "\u8d2d\u7269\u8f66\u9875"
+            },
+            "\u8bc4\u8bba\u533a": {
+              "value": "\u8bc4\u8bba\u533a"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_sub_std": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u6237\u578b\u56fe",
+            "\u88c5\u4fee\u56fe",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u6237\u578b\u56fe": {
+              "value": "\u6237\u578b\u56fe"
+            },
+            "\u88c5\u4fee\u56fe": {
+              "value": "\u88c5\u4fee\u56fe"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_env_pos": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u9633\u53f0",
+            "\u53a8\u623f",
+            "\u536b\u751f\u95f4",
+            "\u5ba2\u5385",
+            "\u5367\u5ba4",
+            "\u5ba4\u5916",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u9633\u53f0": {
+              "value": "\u9633\u53f0"
+            },
+            "\u53a8\u623f": {
+              "value": "\u53a8\u623f"
+            },
+            "\u536b\u751f\u95f4": {
+              "value": "\u536b\u751f\u95f4"
+            },
+            "\u5ba2\u5385": {
+              "value": "\u5ba2\u5385"
+            },
+            "\u5367\u5ba4": {
+              "value": "\u5367\u5ba4"
+            },
+            "\u5ba4\u5916": {
+              "value": "\u5ba4\u5916"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_env_loc": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5899\u9762",
+            "\u5730\u9762",
+            "\u5929\u82b1\u677f",
+            "\u5c4b\u9876",
+            "\u95e8\u6846/\u7a97\u6846",
+            "\u67dc\u4f53",
+            "\u74f7\u7816\u7f1d\u9699",
+            "\u8e22\u811a\u7ebf",
+            "\u6c34\u6c60",
+            "\u9a6c\u6876",
+            "\u9634\u9633\u89d2",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u5899\u9762": {
+              "value": "\u5899\u9762"
+            },
+            "\u5730\u9762": {
+              "value": "\u5730\u9762"
+            },
+            "\u5929\u82b1\u677f": {
+              "value": "\u5929\u82b1\u677f"
+            },
+            "\u5c4b\u9876": {
+              "value": "\u5c4b\u9876"
+            },
+            "\u95e8\u6846/\u7a97\u6846": {
+              "value": "\u95e8\u6846/\u7a97\u6846"
+            },
+            "\u67dc\u4f53": {
+              "value": "\u67dc\u4f53"
+            },
+            "\u74f7\u7816\u7f1d\u9699": {
+              "value": "\u74f7\u7816\u7f1d\u9699"
+            },
+            "\u8e22\u811a\u7ebf": {
+              "value": "\u8e22\u811a\u7ebf"
+            },
+            "\u6c34\u6c60": {
+              "value": "\u6c34\u6c60"
+            },
+            "\u9a6c\u6876": {
+              "value": "\u9a6c\u6876"
+            },
+            "\u9634\u9633\u89d2": {
+              "value": "\u9634\u9633\u89d2"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_env_mat": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u817b\u5b50\u5c42",
+            "\u4e73\u80f6\u6f06\u6d82\u5c42",
+            "\u6c34\u6ce5/\u6df7\u51dd\u571f",
+            "\u74f7\u7816",
+            "\u6728\u6750",
+            "\u91d1\u5c5e",
+            "\u5176\u4ed6"
+          ],
+          "labels_attrs": {
+            "\u817b\u5b50\u5c42": {
+              "value": "\u817b\u5b50\u5c42"
+            },
+            "\u4e73\u80f6\u6f06\u6d82\u5c42": {
+              "value": "\u4e73\u80f6\u6f06\u6d82\u5c42"
+            },
+            "\u6c34\u6ce5/\u6df7\u51dd\u571f": {
+              "value": "\u6c34\u6ce5/\u6df7\u51dd\u571f"
+            },
+            "\u74f7\u7816": {
+              "value": "\u74f7\u7816"
+            },
+            "\u6728\u6750": {
+              "value": "\u6728\u6750"
+            },
+            "\u91d1\u5c5e": {
+              "value": "\u91d1\u5c5e"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            }
+          }
+        },
+        "v_env_prob": {
+          "type": "Choices",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5b8c\u597d\u65e7\u5899\u9762",
+            "\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d",
+            "\u6c61\u6e0d&\u6d82\u9e26",
+            "\u6389\u76ae&\u8d77\u76ae",
+            "\u5f00\u88c2&\u5b54\u6d1e",
+            "\u9732\u51fa\u57fa\u5c42",
+            "\u7a7a\u9f13&\u7fd8\u8fb9",
+            "\u53d1\u9709&\u8fd4\u78b1",
+            "\u7f1d\u9699\u8131\u843d",
+            "\u65e0\u660e\u663e\u7f3a\u9677",
+            "\u65e0\u6cd5\u8bc6\u522b"
+          ],
+          "labels_attrs": {
+            "\u5b8c\u597d\u65e7\u5899\u9762": {
+              "value": "\u5b8c\u597d\u65e7\u5899\u9762"
+            },
+            "\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d": {
+              "value": "\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d"
+            },
+            "\u6c61\u6e0d&\u6d82\u9e26": {
+              "value": "\u6c61\u6e0d&\u6d82\u9e26"
+            },
+            "\u6389\u76ae&\u8d77\u76ae": {
+              "value": "\u6389\u76ae&\u8d77\u76ae"
+            },
+            "\u5f00\u88c2&\u5b54\u6d1e": {
+              "value": "\u5f00\u88c2&\u5b54\u6d1e"
+            },
+            "\u9732\u51fa\u57fa\u5c42": {
+              "value": "\u9732\u51fa\u57fa\u5c42"
+            },
+            "\u7a7a\u9f13&\u7fd8\u8fb9": {
+              "value": "\u7a7a\u9f13&\u7fd8\u8fb9"
+            },
+            "\u53d1\u9709&\u8fd4\u78b1": {
+              "value": "\u53d1\u9709&\u8fd4\u78b1"
+            },
+            "\u7f1d\u9699\u8131\u843d": {
+              "value": "\u7f1d\u9699\u8131\u843d"
+            },
+            "\u65e0\u660e\u663e\u7f3a\u9677": {
+              "value": "\u65e0\u660e\u663e\u7f3a\u9677"
+            },
+            "\u65e0\u6cd5\u8bc6\u522b": {
+              "value": "\u65e0\u6cd5\u8bc6\u522b"
+            }
+          }
+        },
+        "v_tax_prod": {
+          "type": "Taxonomy",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5305\u542b\u5546\u54c1\u4fe1\u606f",
+            "\u5546\u54c1\u540d\u79f0",
+            "\u4ef7\u683c",
+            "\u89c4\u683c/SKU"
+          ],
+          "labels_attrs": {
+            "\u5305\u542b\u5546\u54c1\u4fe1\u606f": {
+              "value": "\u5305\u542b\u5546\u54c1\u4fe1\u606f"
+            },
+            "\u5546\u54c1\u540d\u79f0": {
+              "value": "\u5546\u54c1\u540d\u79f0"
+            },
+            "\u4ef7\u683c": {
+              "value": "\u4ef7\u683c"
+            },
+            "\u89c4\u683c/SKU": {
+              "value": "\u89c4\u683c/SKU"
+            }
+          }
+        },
+        "v_txt_notes": {
+          "type": "TextArea",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [],
+          "labels_attrs": {}
+        },
+        "v_txt_ai": {
+          "type": "TextArea",
+          "to_name": [
+            "v_image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [],
+          "labels_attrs": {}
+        }
+      },
+      "label_config_hash": 5735622977870755512,
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": false,
+      "token": "bebDzfaW7a7eQRLucFgUTFuGKOPaddV1JJZjedOB",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "v_primary": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5546\u54c1/\u5305\u88f9\u5b9e\u62cd\u56fe": 1.0,
+            "\u8d2d\u7269app\u622a\u56fe": 1.0,
+            "\u5236\u5f0f\u56fe\u7247": 1.0,
+            "\u73af\u5883\u5b9e\u62cd\u56fe": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_sub_app": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5546\u54c1\u5934\u56fe": 1.0,
+            "\u5546\u54c1\u8be6\u60c5\u9875": 1.0,
+            "\u89c4\u683c\u5206\u7c7b": 1.0,
+            "\u8ba2\u5355\u8be6\u60c5\u9875": 1.0,
+            "\u8d2d\u7269\u8f66\u9875": 1.0,
+            "\u8bc4\u8bba\u533a": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_sub_std": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u6237\u578b\u56fe": 1.0,
+            "\u88c5\u4fee\u56fe": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_env_pos": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u9633\u53f0": 1.0,
+            "\u53a8\u623f": 1.0,
+            "\u536b\u751f\u95f4": 1.0,
+            "\u5ba2\u5385": 1.0,
+            "\u5367\u5ba4": 1.0,
+            "\u5ba4\u5916": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_env_loc": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5899\u9762": 1.0,
+            "\u5730\u9762": 1.0,
+            "\u5929\u82b1\u677f": 1.0,
+            "\u5c4b\u9876": 1.0,
+            "\u95e8\u6846/\u7a97\u6846": 1.0,
+            "\u67dc\u4f53": 1.0,
+            "\u74f7\u7816\u7f1d\u9699": 1.0,
+            "\u8e22\u811a\u7ebf": 1.0,
+            "\u6c34\u6c60": 1.0,
+            "\u9a6c\u6876": 1.0,
+            "\u9634\u9633\u89d2": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_env_mat": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u817b\u5b50\u5c42": 1.0,
+            "\u4e73\u80f6\u6f06\u6d82\u5c42": 1.0,
+            "\u6c34\u6ce5/\u6df7\u51dd\u571f": 1.0,
+            "\u74f7\u7816": 1.0,
+            "\u6728\u6750": 1.0,
+            "\u91d1\u5c5e": 1.0,
+            "\u5176\u4ed6": 1.0
+          }
+        },
+        "v_env_prob": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5b8c\u597d\u65e7\u5899\u9762": 1.0,
+            "\u6bdb\u576f/\u817b\u5b50\u6279\u522e\u4e2d": 1.0,
+            "\u6c61\u6e0d&\u6d82\u9e26": 1.0,
+            "\u6389\u76ae&\u8d77\u76ae": 1.0,
+            "\u5f00\u88c2&\u5b54\u6d1e": 1.0,
+            "\u9732\u51fa\u57fa\u5c42": 1.0,
+            "\u7a7a\u9f13&\u7fd8\u8fb9": 1.0,
+            "\u53d1\u9709&\u8fd4\u78b1": 1.0,
+            "\u7f1d\u9699\u8131\u843d": 1.0,
+            "\u65e0\u660e\u663e\u7f3a\u9677": 1.0,
+            "\u65e0\u6cd5\u8bc6\u522b": 1.0
+          }
+        },
+        "v_tax_prod": {
+          "overall": 1.0,
+          "type": "Taxonomy",
+          "labels": {
+            "\u5305\u542b\u5546\u54c1\u4fe1\u606f": 1.0,
+            "\u5546\u54c1\u540d\u79f0": 1.0,
+            "\u4ef7\u683c": 1.0,
+            "\u89c4\u683c/SKU": 1.0
+          }
+        },
+        "v_txt_notes": {
+          "overall": 1.0,
+          "type": "TextArea",
+          "labels": {}
+        },
+        "v_txt_ai": {
+          "overall": 1.0,
+          "type": "TextArea",
+          "labels": {}
+        }
+      },
+      "model_version": null,
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2026-02-04T01:40:35.423179Z",
+      "updated_at": "2026-02-06T02:52:52.304460Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "custom_task_lock_ttl": null,
+      "organization": 1,
+      "created_by": 1
+    }
+  }
+}

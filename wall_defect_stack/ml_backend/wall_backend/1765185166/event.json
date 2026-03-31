@@ -1,0 +1,2846 @@
+{
+  "event": "TASKS_CREATED",
+  "job_id": "1765185166",
+  "data": {
+    "tasks": [
+      {
+        "id": 6741,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN0107t6SD1HdHzVdiCE0_!!4611686018427385132-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.896130Z",
+        "updated_at": "2025-12-08T09:12:45.896167Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 1,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6742,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN010cPDGL1oWJHA386qw_!!4611686018427381664-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.905212Z",
+        "updated_at": "2025-12-08T09:12:45.905239Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 2,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6743,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN0119CyKG1X2gBXTz7nM_!!4611686018427381682-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.912081Z",
+        "updated_at": "2025-12-08T09:12:45.912108Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 3,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6744,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN0139f84P2JorPJEy6Hb_!!4611686018427381805-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.919130Z",
+        "updated_at": "2025-12-08T09:12:45.919157Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 4,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6745,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN014hH6uB1ieCP5fdRDA_!!4611686018427383157-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.926079Z",
+        "updated_at": "2025-12-08T09:12:45.926106Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 5,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6746,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN015fsso41mPmOkbjsxB_!!4611686018427381827-0-amp (1).jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.933114Z",
+        "updated_at": "2025-12-08T09:12:45.933141Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 6,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6747,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN015fsso41mPmOkbjsxB_!!4611686018427381827-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.940204Z",
+        "updated_at": "2025-12-08T09:12:45.940231Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 7,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6748,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN016C0x8L1lSEuQpAGwZ_!!4611686018427381041-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.947070Z",
+        "updated_at": "2025-12-08T09:12:45.947098Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 8,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6749,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN017d1K1f1nYJOEi7fs3_!!4611686018427386365-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.954120Z",
+        "updated_at": "2025-12-08T09:12:45.954148Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 9,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6750,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN0185MqPh1SFRB6bZ2c0_!!4611686018427383177-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.963481Z",
+        "updated_at": "2025-12-08T09:12:45.963535Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 10,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6751,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN018r2Nuq1DGbutVpkw7_!!4611686018427385405-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.971867Z",
+        "updated_at": "2025-12-08T09:12:45.971895Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 11,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6752,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN019P7NAN1UiPQJMc0dj_!!4611686018427386791-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.979101Z",
+        "updated_at": "2025-12-08T09:12:45.979129Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 12,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6753,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN019nvlhD2LSXKmCukmN_!!4611686018427379771-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.986161Z",
+        "updated_at": "2025-12-08T09:12:45.986187Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 13,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6754,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01ARg0G91EHMDcE1egq_!!4611686018427379782-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:45.993162Z",
+        "updated_at": "2025-12-08T09:12:45.993189Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 14,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6755,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01AwQcc91weZNhOgLri_!!4611686018427386525-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.000491Z",
+        "updated_at": "2025-12-08T09:12:46.000524Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 15,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6756,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01AxIsJa23aAr303Jq1_!!4611686018427387287-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.007685Z",
+        "updated_at": "2025-12-08T09:12:46.007712Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 16,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6757,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01CCDxeE25ZpnBJZUPc_!!4611686018427384549-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.014697Z",
+        "updated_at": "2025-12-08T09:12:46.014725Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 17,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6758,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01HWQtZa2FXDj0r0MDq_!!4611686018427379961-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.021665Z",
+        "updated_at": "2025-12-08T09:12:46.021693Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 18,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6759,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01IsgAGf2B3ffhCosM9_!!4611686018427381771-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.028602Z",
+        "updated_at": "2025-12-08T09:12:46.028630Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 19,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6760,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01K0VNzH1mwkuehxsfP_!!4611686018427382843-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.035649Z",
+        "updated_at": "2025-12-08T09:12:46.035675Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 20,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6761,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01K6rMZp2MSpErwfCz5_!!4611686018427384979-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.042775Z",
+        "updated_at": "2025-12-08T09:12:46.042802Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 21,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6762,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01LGLk831Tn9x6BPULS_!!4611686018427380986-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.049839Z",
+        "updated_at": "2025-12-08T09:12:46.049865Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 22,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6763,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01N43gMs20Crqv6vsi2_!!4611686018427381166-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.059229Z",
+        "updated_at": "2025-12-08T09:12:46.059259Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 23,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6764,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01NM3CWV2HMnui7e9mi_!!4611686018427384161-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.066243Z",
+        "updated_at": "2025-12-08T09:12:46.066269Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 24,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6765,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01NaiWsH1mC2W3fUcYZ_!!4611686018427387285-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.073090Z",
+        "updated_at": "2025-12-08T09:12:46.073116Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 25,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6766,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01OcxhL41mB7lBEvuFs_!!4611686018427384659-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.080095Z",
+        "updated_at": "2025-12-08T09:12:46.080122Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 26,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6767,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01PWzymm1FQnxkuYEfl_!!4611686018427381074-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.087436Z",
+        "updated_at": "2025-12-08T09:12:46.087462Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 27,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6768,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01S5GBt525rhHRD1g5f_!!4611686018427385212-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.094310Z",
+        "updated_at": "2025-12-08T09:12:46.094337Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 28,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6769,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01YtC1Dg1HK3OdqZIKH_!!4611686018427384674-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.101193Z",
+        "updated_at": "2025-12-08T09:12:46.101220Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 29,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6770,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01aV2XoZ1Ldz3TO2pWD_!!4611686018427382139-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.108182Z",
+        "updated_at": "2025-12-08T09:12:46.108209Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 30,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6771,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01buXctk1FvUXZggujK_!!4611686018427387813-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.115393Z",
+        "updated_at": "2025-12-08T09:12:46.115420Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 31,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6772,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01eY8yle29bReFPePiV_!!4611686018427380198-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.121959Z",
+        "updated_at": "2025-12-08T09:12:46.121985Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 32,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6773,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01f92MTZ1OVgjEHD9Bp_!!4611686018427380863-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.128866Z",
+        "updated_at": "2025-12-08T09:12:46.128894Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 33,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6774,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01fUtWch1L5AxDIRmSP_!!4611686018427383823-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.135961Z",
+        "updated_at": "2025-12-08T09:12:46.135989Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 34,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6775,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01h5EQNx1x7QITIREW5_!!4611686018427386284-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.142947Z",
+        "updated_at": "2025-12-08T09:12:46.142975Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 35,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6776,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01jem7jK1KIAcHF1pjV_!!4611686018427385652-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.150178Z",
+        "updated_at": "2025-12-08T09:12:46.150205Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 36,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6777,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01jzSkHR1W7t76TgCUS_!!4611686018427385942-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.181837Z",
+        "updated_at": "2025-12-08T09:12:46.182024Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 37,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6778,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01nvRIhL1EYIsDizAbi_!!4611686018427382379-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.200899Z",
+        "updated_at": "2025-12-08T09:12:46.200928Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 38,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6779,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01oc8DOg1KzDqY0QeGB_!!4611686018427383090-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.208025Z",
+        "updated_at": "2025-12-08T09:12:46.208052Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 39,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6780,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01oyYjkv2Caw3T0yayv_!!4611686018427383451-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.214972Z",
+        "updated_at": "2025-12-08T09:12:46.214999Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 40,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6781,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01pFabc42ITVMaNg88Z_!!4611686018427386199-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.222067Z",
+        "updated_at": "2025-12-08T09:12:46.222095Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 41,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6782,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01rwkXy21pOoRu4V2rK_!!4611686018427386791-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.229055Z",
+        "updated_at": "2025-12-08T09:12:46.229081Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 42,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6783,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01t8eTKV21Dc9dlF0kr_!!4611686018427380087-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.235946Z",
+        "updated_at": "2025-12-08T09:12:46.235974Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 43,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6784,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01uO0tqb25RahPyfesw_!!4611686018427383283-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.243068Z",
+        "updated_at": "2025-12-08T09:12:46.243096Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 44,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6785,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u5b54\u6d1e/O1CN01zeJjlZ1xQexz5kwJW_!!4611686018427385334-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.249994Z",
+        "updated_at": "2025-12-08T09:12:46.250082Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 45,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6786,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN010APTdH1yOeoeZ8P9r_!!4611686018427382729-0-amp (1).jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.257123Z",
+        "updated_at": "2025-12-08T09:12:46.257150Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 46,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6787,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN010APTdH1yOeoeZ8P9r_!!4611686018427382729-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.264081Z",
+        "updated_at": "2025-12-08T09:12:46.264108Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 47,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6788,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN010UjtKN2LJNS6pvR3F_!!4611686018427383303-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.270878Z",
+        "updated_at": "2025-12-08T09:12:46.270905Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 48,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6789,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN010ZQNal2KzDz7xXkK0_!!4611686018427380139-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.277902Z",
+        "updated_at": "2025-12-08T09:12:46.277929Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 49,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6790,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN011C4UGB1ViEvunLbsm_!!4611686018427387838-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.285044Z",
+        "updated_at": "2025-12-08T09:12:46.285070Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 50,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6791,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN011a8CHt1cXtFoUEzP3_!!4611686018427384811-0-amp (1).jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.292090Z",
+        "updated_at": "2025-12-08T09:12:46.292118Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 51,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6792,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN012n4OYD1mvNj6hi4tu_!!4611686018427387704-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.299069Z",
+        "updated_at": "2025-12-08T09:12:46.299096Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 52,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6793,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN014UpB641eC1cDTcNwb_!!4611686018427384490-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.305952Z",
+        "updated_at": "2025-12-08T09:12:46.305979Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 53,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6794,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN014p3Ufk1O9hiWzg1Bl_!!4611686018427382783-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.313042Z",
+        "updated_at": "2025-12-08T09:12:46.313070Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 54,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6795,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN014sXveO1V3TgR5IezL_!!4611686018427380629-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.319899Z",
+        "updated_at": "2025-12-08T09:12:46.319926Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 55,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6796,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN015b6hvz1ht1eFUaTj3_!!4611686018427380702-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.326784Z",
+        "updated_at": "2025-12-08T09:12:46.326811Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 56,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6797,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN017GnU6I1oQoWTRZky2_!!4611686018427386084-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.333693Z",
+        "updated_at": "2025-12-08T09:12:46.333721Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 57,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6798,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN017OtdH01oI6zzcxAbm_!!4611686018427387121-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.340556Z",
+        "updated_at": "2025-12-08T09:12:46.340583Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 58,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6799,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN017VDBgd2FVO8hVFwQj_!!4611686018427380757-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.347458Z",
+        "updated_at": "2025-12-08T09:12:46.347484Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 59,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6800,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN017kVqKh1ThCnqUcYZ0_!!4611686018427382797-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.354602Z",
+        "updated_at": "2025-12-08T09:12:46.354629Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 60,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6801,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN018EO0I92Lj1dEjfNDq_!!4611686018427383551-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.361718Z",
+        "updated_at": "2025-12-08T09:12:46.361747Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 61,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6802,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN0191AhK41xyYEvcRuNC_!!4611686018427382208-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.368717Z",
+        "updated_at": "2025-12-08T09:12:46.368744Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 62,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6803,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01A1rsyt1L65kIWb9D2_!!4611686018427381841-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.375630Z",
+        "updated_at": "2025-12-08T09:12:46.375657Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 63,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6804,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01AMaS821IPq0zarSp4_!!4611686018427386662-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.382514Z",
+        "updated_at": "2025-12-08T09:12:46.382540Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 64,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6805,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01ASKS9A1V6E1Dul3cD_!!4611686018427385435-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.389445Z",
+        "updated_at": "2025-12-08T09:12:46.389472Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 65,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6806,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01CBWczh1NU1fxxih3F_!!4611686018427381748-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.396273Z",
+        "updated_at": "2025-12-08T09:12:46.396300Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 66,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6807,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01D8P8oz23aAr36OT30_!!4611686018427387287-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.403202Z",
+        "updated_at": "2025-12-08T09:12:46.403229Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 67,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6808,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01DPLTWj1o8x4pDmjMV_!!4611686018427387901-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.410092Z",
+        "updated_at": "2025-12-08T09:12:46.410119Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 68,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6809,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01DlZbCQ1mOPCzzCHfS_!!4611686018427382032-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.416875Z",
+        "updated_at": "2025-12-08T09:12:46.416901Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 69,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6810,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01DvOeoe1vGvHOIa1Um_!!4611686018427386578-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.423780Z",
+        "updated_at": "2025-12-08T09:12:46.423807Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 70,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6811,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01EaTGbD1IxjK8ysNTj_!!4611686018427386048-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.431041Z",
+        "updated_at": "2025-12-08T09:12:46.431071Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 71,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6812,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01FFDW4A1E4X5Sj89eY_!!4611686018427385674-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.438006Z",
+        "updated_at": "2025-12-08T09:12:46.438049Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 72,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6813,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01FcENwi1C0kaEp5X0V_!!4611686018427381587-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.444970Z",
+        "updated_at": "2025-12-08T09:12:46.444997Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 73,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6814,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01G7OjVO1HvbpjJ0UZL_!!4611686018427386292-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.451828Z",
+        "updated_at": "2025-12-08T09:12:46.451856Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 74,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6815,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01G9Nave2935yghzlts_!!4611686018427385355-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.458642Z",
+        "updated_at": "2025-12-08T09:12:46.458669Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 75,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6816,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01HyPr6O1GZnOGEFkn2_!!4611686018427385437-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.465554Z",
+        "updated_at": "2025-12-08T09:12:46.465581Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 76,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6817,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01ID1H2Y1k6sp9xh9j4_!!4611686018427379995-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.472567Z",
+        "updated_at": "2025-12-08T09:12:46.472595Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 77,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6818,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01IG1o841nnQScYd6LQ_!!4611686018427383518-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.479518Z",
+        "updated_at": "2025-12-08T09:12:46.479544Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 78,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6819,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01ISUv4W1YwO0za1JV2_!!4611686018427385731-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.486273Z",
+        "updated_at": "2025-12-08T09:12:46.486299Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 79,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6820,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01JMyOzE2KbrmnbP0PU_!!4611686018427380936-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.493185Z",
+        "updated_at": "2025-12-08T09:12:46.493211Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 80,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6821,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01JYAKOC2FtChNApRxK_!!4611686018427381705-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.500098Z",
+        "updated_at": "2025-12-08T09:12:46.500125Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 81,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6822,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01JfZ1hP22j2x4IsboN_!!4611686018427386867-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.507364Z",
+        "updated_at": "2025-12-08T09:12:46.507391Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 82,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6823,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01JrPUFl1ZDKczv0uJM_!!4611686018427387608-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.514422Z",
+        "updated_at": "2025-12-08T09:12:46.514451Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 83,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6824,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01K1AZBn1C9uVRoyjpq_!!4611686018427386183-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.521350Z",
+        "updated_at": "2025-12-08T09:12:46.521377Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 84,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6825,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01K4Ii391Gh7gvnFSFi_!!4611686018427382029-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.528306Z",
+        "updated_at": "2025-12-08T09:12:46.528333Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 85,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6826,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01KZY8GZ2EzKNbd2bsg_!!4611686018427384159-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.535367Z",
+        "updated_at": "2025-12-08T09:12:46.535392Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 86,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6827,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01Ktj7o91t4RFkHR8mD_!!4611686018427383864-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.542265Z",
+        "updated_at": "2025-12-08T09:12:46.542292Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 87,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6828,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01L07MOE1CQOlW5XPRq_!!4611686018427382379-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.549179Z",
+        "updated_at": "2025-12-08T09:12:46.549206Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 88,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6829,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01LRmtGz1gZxXxvzkBl_!!4611686018427386397-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.555991Z",
+        "updated_at": "2025-12-08T09:12:46.556030Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 89,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6830,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01M1cj6w1fzmG2C05NW_!!4611686018427381406-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.562978Z",
+        "updated_at": "2025-12-08T09:12:46.563005Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 90,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6831,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01M5vs9T1oI6zybCsjA_!!4611686018427387121-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.569892Z",
+        "updated_at": "2025-12-08T09:12:46.569919Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 91,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6832,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01MMFjcI1uGdPoD3td5_!!4611686018427384106-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.577050Z",
+        "updated_at": "2025-12-08T09:12:46.577078Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 92,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6833,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01NMijCs2FGH4lgpsO0_!!4611686018427383012-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.584095Z",
+        "updated_at": "2025-12-08T09:12:46.584121Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 93,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6834,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01OYveZi27teC2mjiuh_!!4611686018427387855-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.591287Z",
+        "updated_at": "2025-12-08T09:12:46.591314Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 94,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6835,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01POkkyV1lrt5XO9oh9_!!4611686018427385401-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.598146Z",
+        "updated_at": "2025-12-08T09:12:46.598174Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 95,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6836,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01PXIHaP1WyYcWfwMQ4_!!4611686018427381801-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.605115Z",
+        "updated_at": "2025-12-08T09:12:46.605142Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 96,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6837,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01PbX1V11hmc40gQYLH_!!4611686018427382544-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.611857Z",
+        "updated_at": "2025-12-08T09:12:46.611884Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 97,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6838,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01RAVl5n1LoWCoir8rb_!!4611686018427383394-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.618989Z",
+        "updated_at": "2025-12-08T09:12:46.619027Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 98,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6839,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01X22zoK1MVZR5wbeAu_!!4611686018427386432-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.625816Z",
+        "updated_at": "2025-12-08T09:12:46.625842Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 99,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      },
+      {
+        "id": 6840,
+        "data": {
+          "image": "s3://wall-defects/wall_dataset_v1/\u6d82\u9e26&\u6c61\u6e0d/O1CN01aIu3BG2KK0L5m2q27_!!4611686018427387617-0-amp.jpg"
+        },
+        "meta": {},
+        "created_at": "2025-12-08T09:12:46.632909Z",
+        "updated_at": "2025-12-08T09:12:46.632935Z",
+        "is_labeled": false,
+        "overlap": 1,
+        "inner_id": 100,
+        "total_annotations": 0,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": null,
+        "file_upload": null,
+        "comment_authors": []
+      }
+    ],
+    "project": {
+      "id": 3,
+      "task_number": 100,
+      "finished_task_number": 0,
+      "total_predictions_number": 0,
+      "total_annotations_number": 0,
+      "num_tasks_with_annotations": 0,
+      "useful_annotation_number": 0,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "New Project #1",
+      "description": "\u7528\u4e8e\u5899\u9762\u7f3a\u9677\u7efc\u5408\u5206\u6790\u6807\u6ce8",
+      "label_config": "<View>\n  <!-- \u539f\u59cb\u56fe\u7247 -->\n  <Image name=\"image\" value=\"$image\" zoom=\"true\" zoomControl=\"true\" rotateControl=\"true\" />\n\n  <!-- \u4e00\u3001\u4e00\u7ea7\u5206\u7c7b\uff1a\u5fc5\u987b\u662f PRIMARY_LABELS \u91cc\u7684 23 \u4e2a\u4e4b\u4e00 -->\n  <View style=\"margin-top: 20px; padding: 10px; border: 1px solid #ddd;\">\n    <Header value=\"\u2460 \u4e00\u7ea7\u5206\u7c7b\uff08image_type / primary_label\uff09\" />\n    <Choices name=\"primary_label\" toName=\"image\" choice=\"single\" required=\"true\" showInline=\"true\">\n      <Choice value=\"\u5546\u54c1\u5206\u7c7b\u9009\u9879\" />\n      <Choice value=\"\u5546\u54c1\u5934\u56fe\" />\n      <Choice value=\"\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe\" />\n      <Choice value=\"\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09\" />\n      <Choice value=\"\u8ba2\u5355\u8be6\u60c5\u9875\u9762\" />\n      <Choice value=\"\u652f\u4ed8\u9875\u9762\" />\n      <Choice value=\"\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762\" />\n      <Choice value=\"\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762\" />\n      <Choice value=\"\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762\" />\n      <Choice value=\"\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762\" />\n      <Choice value=\"\u9000\u6b3e\u9875\u9762\" />\n      <Choice value=\"\u9000\u8d27\u9875\u9762\" />\n      <Choice value=\"\u6362\u8d27\u9875\u9762\" />\n      <Choice value=\"\u8d2d\u7269\u8f66\u9875\u9762\" />\n      <Choice value=\"\u5e97\u94fa\u9875\u9762\" />\n      <Choice value=\"\u6d3b\u52a8\u9875\u9762\" />\n      <Choice value=\"\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762\" />\n      <Choice value=\"\u8d26\u5355/\u8d26\u6237\u9875\u9762\" />\n      <Choice value=\"\u6295\u8bc9\u4e3e\u62a5\u9875\u9762\" />\n      <Choice value=\"\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)\" />\n      <Choice value=\"\u5916\u90e8APP\u622a\u56fe\" />\n      <Choice value=\"\u5e73\u53f0\u4ecb\u5165\u9875\u9762\" />\n      <Choice value=\"\u5176\u4ed6\u7c7b\u522b\u56fe\u7247\" />\n    </Choices>\n    <Header value=\"\u26a0 \u5bf9\u4e8e\u5899\u9762\u7f3a\u9677\u6570\u636e\uff0c\u672c\u9879\u76ee\u901a\u5e38\u9009\u300e\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)\u300f\" />\n  </View>\n\n  <!-- \u4e8c\u3001\u4e8c\u7ea7\u7f3a\u9677\u7c7b\u522b\uff08\u53ea\u6709\u5f53\u4e00\u7ea7=\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e) \u65f6\u624d\u6709\u610f\u4e49\uff09 -->\n  <View style=\"margin-top: 20px; padding: 10px; border: 1px solid #ddd;\">\n    <Header value=\"\u2461 \u5899\u9762\u7f3a\u9677\u4e8c\u7ea7\u7c7b\u522b\uff08secondary_label\uff09\" />\n    <Choices name=\"secondary_label\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u5b54\u6d1e\" />\n      <Choice value=\"\u88c2\u7f1d\" />\n      <Choice value=\"\u9732\u51fa\u57fa\u5c42\" />\n      <Choice value=\"\u8d77\u76ae\u6389\u76ae\" />\n      <Choice value=\"\u6d82\u9e26&amp;\u6c61\u6e0d\" />\n      <Choice value=\"\u5168\u90e8\u672a\u5206\u7c7b\" />\n    </Choices>\n  </View>\n\n  <!-- \u4e09\u3001\u5899\u9762\u5c5e\u6027\u6807\u7b7e\uff1a\u5b8c\u5168\u5bf9\u5e94 WALL_ATTRIBUTES -->\n  <View style=\"margin-top: 20px; padding: 10px; border: 1px solid #ddd;\">\n    <Header value=\"\u2462 \u5899\u9762\u573a\u666f\u5c5e\u6027\uff08WALL_ATTRIBUTES\uff09\" />\n\n    <!-- environment -->\n    <Header value=\"\u73af\u5883\uff08environment\uff09\" />\n    <Choices name=\"environment\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u5ba4\u5185\" />\n      <Choice value=\"\u5ba4\u5916\" />\n    </Choices>\n\n    <!-- surface_position -->\n    <Header value=\"\u8868\u9762\u4f4d\u7f6e\uff08surface_position\uff09\" />\n    <Choices name=\"surface_position\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u5899\u9762\" />\n      <Choice value=\"\u5730\u9762\" />\n      <Choice value=\"\u5929\u82b1\u677f\" />\n      <Choice value=\"\u9634\u9633\u89d2\" />\n      <Choice value=\"\u5f02\u5f62\u4f4d\u7f6e\" />\n      <Choice value=\"\u5176\u4ed6\uff08\u56fe\u7247\u4e2d\u4e3b\u8981\u662f\u6c34\u69fd\uff0c\u65e0\u660e\u663e\u5899\u9762\u7f3a\u9677\uff09\" />\n      <Choice value='\u9876\u9762' />\n      <Choice value='\u5176\u4ed6\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09' />\n      <Choice value='\u5176\u4ed6' />\n      <Choice value='\u5168\u90e8\u672a\u5206\u7c7b' />\n      <Choice value='\u65e0\u76f8\u5173\u4fe1\u606f' />\n    </Choices>\n\n    <!-- surface_material -->\n    <Header value=\"\u8868\u9762\u6750\u8d28\uff08surface_material\uff09\" />\n    <Choices name=\"surface_material\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u6728\u5934\" />\n      <Choice value=\"\u91d1\u5c5e\" />\n      <Choice value=\"\u74f7\u7816\" />\n      <Choice value=\"\u4e00\u822c\u6750\u8d28\" />\n      <Choice value=\"\u5176\u4ed6\u6750\u8d28\" />\n      <Choice value='\u5168\u90e8\u672a\u5206\u7c7b' />\n      <Choice value='\u65e0\u76f8\u5173\u4fe1\u606f' />\n      <Choice value='\u5176\u4ed6\u6750\u8d28\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09' />\n    </Choices>\n\n    <!-- defect_color -->\n    <Header value=\"\u7f3a\u9677\u989c\u8272\uff08defect_color\uff09\" />\n    <Choices name=\"defect_color\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u767d\u8272\" />\n      <Choice value=\"\u5176\u4ed6\" />\n      <Choice value='\u5168\u90e8\u672a\u5206\u7c7b' />\n      <Choice value='\u65e0\u76f8\u5173\u4fe1\u606f' />\n    </Choices>\n\n    <!-- wet_area -->\n    <Header value=\"\u5e72\u6e7f\u533a\uff08wet_area\uff09\" />\n    <Choices name=\"wet_area\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u5e72\u533a\" />\n      <Choice value=\"\u6e7f\u533a\" />\n      <Choice value='\u5168\u90e8\u672a\u5206\u7c7b' />\n      <Choice value='\u5176\u4ed6' />\n      <Choice value='\u65e0\u76f8\u5173\u4fe1\u606f' />\n    </Choices>\n\n    <!-- water_leak -->\n    <Header value=\"\u6e17\u6f0f\u60c5\u51b5\uff08water_leak\uff09\" />\n    <Choices name=\"water_leak\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u6e17\u6c34\" />\n      <Choice value=\"\u6f0f\u6c34\" />\n      <Choice value=\"\u65e0\u6e17\u6f0f\" />\n      <Choice value='\u5168\u90e8\u672a\u5206\u7c7b' />\n      <Choice value='\u65e0\u76f8\u5173\u4fe1\u606f' />\n    </Choices>\n\n    <!-- defect_area -->\n    <Header value=\"\u7f3a\u9677\u9762\u79ef\u7ea7\u522b\uff08defect_area\uff09\" />\n    <Choices name=\"defect_area\" toName=\"image\" choice=\"single\" required=\"false\" showInline=\"true\">\n      <Choice value=\"\u70b9\u72b6\u4fee\u8865\" />\n      <Choice value=\"\u5c0f\u9762\u79ef\" />\n      <Choice value=\"\u5927\u9762\u79ef\" />\n      <Choice value=\"\u5168\u90e8\u672a\u5206\u7c7b\" />\n      <Choice value='\u5176\u4ed6' />\n      <Choice value='\u65e0\u76f8\u5173\u4fe1\u606f' />\n      <Choice value='\u65e0' />\n      <Choice value='\u65e0\u660e\u663e\u7f3a\u9677' />\n    </Choices>\n\n    <!-- reasoning -->\n    <Header value=\"\u5206\u6790\u8bf4\u660e\uff08reasoning\uff0c\u7528\u4e8e\u8bb0\u5f55\u5224\u5b9a\u4f9d\u636e/\u5907\u6ce8\uff09\" />\n    <Textarea name=\"reasoning\" toName=\"image\" rows=\"3\" placeholder=\"\u53ef\u7b80\u8981\u8bf4\u660e\u7f3a\u9677\u539f\u56e0\u3001\u73af\u5883\u56e0\u7d20\u7b49\uff0c\u53ef\u4e3a\u7a7a\" />\n  </View>\n</View>",
+      "parsed_label_config": {
+        "primary_label": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5546\u54c1\u5206\u7c7b\u9009\u9879",
+            "\u5546\u54c1\u5934\u56fe",
+            "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe",
+            "\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09",
+            "\u8ba2\u5355\u8be6\u60c5\u9875\u9762",
+            "\u652f\u4ed8\u9875\u9762",
+            "\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762",
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762",
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762",
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762",
+            "\u9000\u6b3e\u9875\u9762",
+            "\u9000\u8d27\u9875\u9762",
+            "\u6362\u8d27\u9875\u9762",
+            "\u8d2d\u7269\u8f66\u9875\u9762",
+            "\u5e97\u94fa\u9875\u9762",
+            "\u6d3b\u52a8\u9875\u9762",
+            "\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762",
+            "\u8d26\u5355/\u8d26\u6237\u9875\u9762",
+            "\u6295\u8bc9\u4e3e\u62a5\u9875\u9762",
+            "\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)",
+            "\u5916\u90e8APP\u622a\u56fe",
+            "\u5e73\u53f0\u4ecb\u5165\u9875\u9762",
+            "\u5176\u4ed6\u7c7b\u522b\u56fe\u7247"
+          ],
+          "labels_attrs": {
+            "\u5546\u54c1\u5206\u7c7b\u9009\u9879": {
+              "value": "\u5546\u54c1\u5206\u7c7b\u9009\u9879"
+            },
+            "\u5546\u54c1\u5934\u56fe": {
+              "value": "\u5546\u54c1\u5934\u56fe"
+            },
+            "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe": {
+              "value": "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe"
+            },
+            "\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09": {
+              "value": "\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09"
+            },
+            "\u8ba2\u5355\u8be6\u60c5\u9875\u9762": {
+              "value": "\u8ba2\u5355\u8be6\u60c5\u9875\u9762"
+            },
+            "\u652f\u4ed8\u9875\u9762": {
+              "value": "\u652f\u4ed8\u9875\u9762"
+            },
+            "\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762": {
+              "value": "\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762"
+            },
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762": {
+              "value": "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762"
+            },
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762": {
+              "value": "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762"
+            },
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762": {
+              "value": "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762"
+            },
+            "\u9000\u6b3e\u9875\u9762": {
+              "value": "\u9000\u6b3e\u9875\u9762"
+            },
+            "\u9000\u8d27\u9875\u9762": {
+              "value": "\u9000\u8d27\u9875\u9762"
+            },
+            "\u6362\u8d27\u9875\u9762": {
+              "value": "\u6362\u8d27\u9875\u9762"
+            },
+            "\u8d2d\u7269\u8f66\u9875\u9762": {
+              "value": "\u8d2d\u7269\u8f66\u9875\u9762"
+            },
+            "\u5e97\u94fa\u9875\u9762": {
+              "value": "\u5e97\u94fa\u9875\u9762"
+            },
+            "\u6d3b\u52a8\u9875\u9762": {
+              "value": "\u6d3b\u52a8\u9875\u9762"
+            },
+            "\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762": {
+              "value": "\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762"
+            },
+            "\u8d26\u5355/\u8d26\u6237\u9875\u9762": {
+              "value": "\u8d26\u5355/\u8d26\u6237\u9875\u9762"
+            },
+            "\u6295\u8bc9\u4e3e\u62a5\u9875\u9762": {
+              "value": "\u6295\u8bc9\u4e3e\u62a5\u9875\u9762"
+            },
+            "\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)": {
+              "value": "\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)"
+            },
+            "\u5916\u90e8APP\u622a\u56fe": {
+              "value": "\u5916\u90e8APP\u622a\u56fe"
+            },
+            "\u5e73\u53f0\u4ecb\u5165\u9875\u9762": {
+              "value": "\u5e73\u53f0\u4ecb\u5165\u9875\u9762"
+            },
+            "\u5176\u4ed6\u7c7b\u522b\u56fe\u7247": {
+              "value": "\u5176\u4ed6\u7c7b\u522b\u56fe\u7247"
+            }
+          }
+        },
+        "secondary_label": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5b54\u6d1e",
+            "\u88c2\u7f1d",
+            "\u9732\u51fa\u57fa\u5c42",
+            "\u8d77\u76ae\u6389\u76ae",
+            "\u6d82\u9e26&\u6c61\u6e0d",
+            "\u5168\u90e8\u672a\u5206\u7c7b"
+          ],
+          "labels_attrs": {
+            "\u5b54\u6d1e": {
+              "value": "\u5b54\u6d1e"
+            },
+            "\u88c2\u7f1d": {
+              "value": "\u88c2\u7f1d"
+            },
+            "\u9732\u51fa\u57fa\u5c42": {
+              "value": "\u9732\u51fa\u57fa\u5c42"
+            },
+            "\u8d77\u76ae\u6389\u76ae": {
+              "value": "\u8d77\u76ae\u6389\u76ae"
+            },
+            "\u6d82\u9e26&\u6c61\u6e0d": {
+              "value": "\u6d82\u9e26&\u6c61\u6e0d"
+            },
+            "\u5168\u90e8\u672a\u5206\u7c7b": {
+              "value": "\u5168\u90e8\u672a\u5206\u7c7b"
+            }
+          }
+        },
+        "environment": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5ba4\u5185",
+            "\u5ba4\u5916"
+          ],
+          "labels_attrs": {
+            "\u5ba4\u5185": {
+              "value": "\u5ba4\u5185"
+            },
+            "\u5ba4\u5916": {
+              "value": "\u5ba4\u5916"
+            }
+          }
+        },
+        "surface_position": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5899\u9762",
+            "\u5730\u9762",
+            "\u5929\u82b1\u677f",
+            "\u9634\u9633\u89d2",
+            "\u5f02\u5f62\u4f4d\u7f6e",
+            "\u5176\u4ed6\uff08\u56fe\u7247\u4e2d\u4e3b\u8981\u662f\u6c34\u69fd\uff0c\u65e0\u660e\u663e\u5899\u9762\u7f3a\u9677\uff09",
+            "\u9876\u9762",
+            "\u5176\u4ed6\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09",
+            "\u5176\u4ed6",
+            "\u5168\u90e8\u672a\u5206\u7c7b",
+            "\u65e0\u76f8\u5173\u4fe1\u606f"
+          ],
+          "labels_attrs": {
+            "\u5899\u9762": {
+              "value": "\u5899\u9762"
+            },
+            "\u5730\u9762": {
+              "value": "\u5730\u9762"
+            },
+            "\u5929\u82b1\u677f": {
+              "value": "\u5929\u82b1\u677f"
+            },
+            "\u9634\u9633\u89d2": {
+              "value": "\u9634\u9633\u89d2"
+            },
+            "\u5f02\u5f62\u4f4d\u7f6e": {
+              "value": "\u5f02\u5f62\u4f4d\u7f6e"
+            },
+            "\u5176\u4ed6\uff08\u56fe\u7247\u4e2d\u4e3b\u8981\u662f\u6c34\u69fd\uff0c\u65e0\u660e\u663e\u5899\u9762\u7f3a\u9677\uff09": {
+              "value": "\u5176\u4ed6\uff08\u56fe\u7247\u4e2d\u4e3b\u8981\u662f\u6c34\u69fd\uff0c\u65e0\u660e\u663e\u5899\u9762\u7f3a\u9677\uff09"
+            },
+            "\u9876\u9762": {
+              "value": "\u9876\u9762"
+            },
+            "\u5176\u4ed6\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09": {
+              "value": "\u5176\u4ed6\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            },
+            "\u5168\u90e8\u672a\u5206\u7c7b": {
+              "value": "\u5168\u90e8\u672a\u5206\u7c7b"
+            },
+            "\u65e0\u76f8\u5173\u4fe1\u606f": {
+              "value": "\u65e0\u76f8\u5173\u4fe1\u606f"
+            }
+          }
+        },
+        "surface_material": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u6728\u5934",
+            "\u91d1\u5c5e",
+            "\u74f7\u7816",
+            "\u4e00\u822c\u6750\u8d28",
+            "\u5176\u4ed6\u6750\u8d28",
+            "\u5168\u90e8\u672a\u5206\u7c7b",
+            "\u65e0\u76f8\u5173\u4fe1\u606f",
+            "\u5176\u4ed6\u6750\u8d28\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09"
+          ],
+          "labels_attrs": {
+            "\u6728\u5934": {
+              "value": "\u6728\u5934"
+            },
+            "\u91d1\u5c5e": {
+              "value": "\u91d1\u5c5e"
+            },
+            "\u74f7\u7816": {
+              "value": "\u74f7\u7816"
+            },
+            "\u4e00\u822c\u6750\u8d28": {
+              "value": "\u4e00\u822c\u6750\u8d28"
+            },
+            "\u5176\u4ed6\u6750\u8d28": {
+              "value": "\u5176\u4ed6\u6750\u8d28"
+            },
+            "\u5168\u90e8\u672a\u5206\u7c7b": {
+              "value": "\u5168\u90e8\u672a\u5206\u7c7b"
+            },
+            "\u65e0\u76f8\u5173\u4fe1\u606f": {
+              "value": "\u65e0\u76f8\u5173\u4fe1\u606f"
+            },
+            "\u5176\u4ed6\u6750\u8d28\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09": {
+              "value": "\u5176\u4ed6\u6750\u8d28\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09"
+            }
+          }
+        },
+        "defect_color": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u767d\u8272",
+            "\u5176\u4ed6",
+            "\u5168\u90e8\u672a\u5206\u7c7b",
+            "\u65e0\u76f8\u5173\u4fe1\u606f"
+          ],
+          "labels_attrs": {
+            "\u767d\u8272": {
+              "value": "\u767d\u8272"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            },
+            "\u5168\u90e8\u672a\u5206\u7c7b": {
+              "value": "\u5168\u90e8\u672a\u5206\u7c7b"
+            },
+            "\u65e0\u76f8\u5173\u4fe1\u606f": {
+              "value": "\u65e0\u76f8\u5173\u4fe1\u606f"
+            }
+          }
+        },
+        "wet_area": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u5e72\u533a",
+            "\u6e7f\u533a",
+            "\u5168\u90e8\u672a\u5206\u7c7b",
+            "\u5176\u4ed6",
+            "\u65e0\u76f8\u5173\u4fe1\u606f"
+          ],
+          "labels_attrs": {
+            "\u5e72\u533a": {
+              "value": "\u5e72\u533a"
+            },
+            "\u6e7f\u533a": {
+              "value": "\u6e7f\u533a"
+            },
+            "\u5168\u90e8\u672a\u5206\u7c7b": {
+              "value": "\u5168\u90e8\u672a\u5206\u7c7b"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            },
+            "\u65e0\u76f8\u5173\u4fe1\u606f": {
+              "value": "\u65e0\u76f8\u5173\u4fe1\u606f"
+            }
+          }
+        },
+        "water_leak": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u6e17\u6c34",
+            "\u6f0f\u6c34",
+            "\u65e0\u6e17\u6f0f",
+            "\u5168\u90e8\u672a\u5206\u7c7b",
+            "\u65e0\u76f8\u5173\u4fe1\u606f"
+          ],
+          "labels_attrs": {
+            "\u6e17\u6c34": {
+              "value": "\u6e17\u6c34"
+            },
+            "\u6f0f\u6c34": {
+              "value": "\u6f0f\u6c34"
+            },
+            "\u65e0\u6e17\u6f0f": {
+              "value": "\u65e0\u6e17\u6f0f"
+            },
+            "\u5168\u90e8\u672a\u5206\u7c7b": {
+              "value": "\u5168\u90e8\u672a\u5206\u7c7b"
+            },
+            "\u65e0\u76f8\u5173\u4fe1\u606f": {
+              "value": "\u65e0\u76f8\u5173\u4fe1\u606f"
+            }
+          }
+        },
+        "defect_area": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "\u70b9\u72b6\u4fee\u8865",
+            "\u5c0f\u9762\u79ef",
+            "\u5927\u9762\u79ef",
+            "\u5168\u90e8\u672a\u5206\u7c7b",
+            "\u5176\u4ed6",
+            "\u65e0\u76f8\u5173\u4fe1\u606f",
+            "\u65e0",
+            "\u65e0\u660e\u663e\u7f3a\u9677"
+          ],
+          "labels_attrs": {
+            "\u70b9\u72b6\u4fee\u8865": {
+              "value": "\u70b9\u72b6\u4fee\u8865"
+            },
+            "\u5c0f\u9762\u79ef": {
+              "value": "\u5c0f\u9762\u79ef"
+            },
+            "\u5927\u9762\u79ef": {
+              "value": "\u5927\u9762\u79ef"
+            },
+            "\u5168\u90e8\u672a\u5206\u7c7b": {
+              "value": "\u5168\u90e8\u672a\u5206\u7c7b"
+            },
+            "\u5176\u4ed6": {
+              "value": "\u5176\u4ed6"
+            },
+            "\u65e0\u76f8\u5173\u4fe1\u606f": {
+              "value": "\u65e0\u76f8\u5173\u4fe1\u606f"
+            },
+            "\u65e0": {
+              "value": "\u65e0"
+            },
+            "\u65e0\u660e\u663e\u7f3a\u9677": {
+              "value": "\u65e0\u660e\u663e\u7f3a\u9677"
+            }
+          }
+        },
+        "reasoning": {
+          "type": "Textarea",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "valueType": null,
+              "value": "image"
+            }
+          ],
+          "labels": [],
+          "labels_attrs": {}
+        }
+      },
+      "label_config_hash": -9167574181589361790,
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": false,
+      "evaluate_predictions_automatically": false,
+      "token": "AhbxL7mC9yxEMnu9vubhoJUnN6seAwYWEhTwPcON",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "primary_label": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5546\u54c1\u5206\u7c7b\u9009\u9879": 1.0,
+            "\u5546\u54c1\u5934\u56fe": 1.0,
+            "\u5546\u54c1\u8be6\u60c5\u9875\u622a\u56fe": 1.0,
+            "\u4e0b\u5355\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u5f02\u5e38\uff08\u663e\u793a\u8d2d\u4e70\u5931\u8d25\u6d6e\u7a97\uff09": 1.0,
+            "\u8ba2\u5355\u8be6\u60c5\u9875\u9762": 1.0,
+            "\u652f\u4ed8\u9875\u9762": 1.0,
+            "\u8bc4\u8bba\u533a\u622a\u56fe\u9875\u9762": 1.0,
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5217\u8868\u9875\u9762": 1.0,
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u8ddf\u8e2a\u9875\u9762": 1.0,
+            "\u7269\u6d41\u9875\u9762-\u7269\u6d41\u5f02\u5e38\u9875\u9762": 1.0,
+            "\u9000\u6b3e\u9875\u9762": 1.0,
+            "\u9000\u8d27\u9875\u9762": 1.0,
+            "\u6362\u8d27\u9875\u9762": 1.0,
+            "\u8d2d\u7269\u8f66\u9875\u9762": 1.0,
+            "\u5e97\u94fa\u9875\u9762": 1.0,
+            "\u6d3b\u52a8\u9875\u9762": 1.0,
+            "\u4f18\u60e0\u5238\u9886\u53d6\u9875\u9762": 1.0,
+            "\u8d26\u5355/\u8d26\u6237\u9875\u9762": 1.0,
+            "\u6295\u8bc9\u4e3e\u62a5\u9875\u9762": 1.0,
+            "\u5b9e\u7269\u62cd\u6444(\u542b\u552e\u540e)": 1.0,
+            "\u5916\u90e8APP\u622a\u56fe": 1.0,
+            "\u5e73\u53f0\u4ecb\u5165\u9875\u9762": 1.0,
+            "\u5176\u4ed6\u7c7b\u522b\u56fe\u7247": 1.0
+          }
+        },
+        "secondary_label": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5b54\u6d1e": 1.0,
+            "\u88c2\u7f1d": 1.0,
+            "\u9732\u51fa\u57fa\u5c42": 1.0,
+            "\u8d77\u76ae\u6389\u76ae": 1.0,
+            "\u6d82\u9e26&\u6c61\u6e0d": 1.0,
+            "\u5168\u90e8\u672a\u5206\u7c7b": 1.0
+          }
+        },
+        "environment": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5ba4\u5185": 1.0,
+            "\u5ba4\u5916": 1.0
+          }
+        },
+        "surface_position": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5899\u9762": 1.0,
+            "\u5730\u9762": 1.0,
+            "\u5929\u82b1\u677f": 1.0,
+            "\u9634\u9633\u89d2": 1.0,
+            "\u5f02\u5f62\u4f4d\u7f6e": 1.0,
+            "\u5176\u4ed6\uff08\u56fe\u7247\u4e2d\u4e3b\u8981\u662f\u6c34\u69fd\uff0c\u65e0\u660e\u663e\u5899\u9762\u7f3a\u9677\uff09": 1.0,
+            "\u9876\u9762": 1.0,
+            "\u5176\u4ed6\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09": 1.0,
+            "\u5176\u4ed6": 1.0,
+            "\u5168\u90e8\u672a\u5206\u7c7b": 1.0,
+            "\u65e0\u76f8\u5173\u4fe1\u606f": 1.0
+          }
+        },
+        "surface_material": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u6728\u5934": 1.0,
+            "\u91d1\u5c5e": 1.0,
+            "\u74f7\u7816": 1.0,
+            "\u4e00\u822c\u6750\u8d28": 1.0,
+            "\u5176\u4ed6\u6750\u8d28": 1.0,
+            "\u5168\u90e8\u672a\u5206\u7c7b": 1.0,
+            "\u65e0\u76f8\u5173\u4fe1\u606f": 1.0,
+            "\u5176\u4ed6\u6750\u8d28\uff08\u56fe\u7247\u672a\u663e\u793a\u5899\u9762\u76f8\u5173\uff09": 1.0
+          }
+        },
+        "defect_color": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u767d\u8272": 1.0,
+            "\u5176\u4ed6": 1.0,
+            "\u5168\u90e8\u672a\u5206\u7c7b": 1.0,
+            "\u65e0\u76f8\u5173\u4fe1\u606f": 1.0
+          }
+        },
+        "wet_area": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u5e72\u533a": 1.0,
+            "\u6e7f\u533a": 1.0,
+            "\u5168\u90e8\u672a\u5206\u7c7b": 1.0,
+            "\u5176\u4ed6": 1.0,
+            "\u65e0\u76f8\u5173\u4fe1\u606f": 1.0
+          }
+        },
+        "water_leak": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u6e17\u6c34": 1.0,
+            "\u6f0f\u6c34": 1.0,
+            "\u65e0\u6e17\u6f0f": 1.0,
+            "\u5168\u90e8\u672a\u5206\u7c7b": 1.0,
+            "\u65e0\u76f8\u5173\u4fe1\u606f": 1.0
+          }
+        },
+        "defect_area": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "\u70b9\u72b6\u4fee\u8865": 1.0,
+            "\u5c0f\u9762\u79ef": 1.0,
+            "\u5927\u9762\u79ef": 1.0,
+            "\u5168\u90e8\u672a\u5206\u7c7b": 1.0,
+            "\u5176\u4ed6": 1.0,
+            "\u65e0\u76f8\u5173\u4fe1\u606f": 1.0,
+            "\u65e0": 1.0,
+            "\u65e0\u660e\u663e\u7f3a\u9677": 1.0
+          }
+        },
+        "reasoning": {
+          "overall": 1.0,
+          "type": "Textarea",
+          "labels": {}
+        }
+      },
+      "model_version": "",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2025-12-01T10:01:57.735631Z",
+      "updated_at": "2025-12-08T03:01:32.818690Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "custom_task_lock_ttl": null,
+      "organization": 1,
+      "created_by": 1
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(chmod:*)",
+      "Bash(docker-compose restart:*)",
+      "Bash(curl:*)",
+      "Bash(python create_golden_dataset.py:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(docker-compose exec:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(python3 -m pip show:*)",
+      "Bash(source:*)",
+      "Bash(conda activate:*)",
+      "Bash(~/anaconda3/envs/common/bin/python:*)",
+      "Bash(python3:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+<!--
+Label Studio 标注配置 - 墙体缺陷检测 V3.1 (修复版)
+
+修复内容：
+1. ✅ 补充具体位置：水池、马桶、阴阳角、踢脚线、瓷砖缝隙
+2. ✅ 补充表面材质：木材、金属
+3. ✅ 补充问题类型：毛坯/腻子批刮中、空鼓&翘边、发霉&返碱、缝隙脱落、无法识别
+
+所有标签现在与 prompt_2.0_xml.txt 完全一致
+-->
+<View>
+  <!-- ==================== 图像显示区域 ==================== -->
+  <Image name="v_image" value="$image" zoom="true" width="100%"/>
+
+  <!-- ==================== 一级分类 (必填) ==================== -->
+  <View style="padding: 10px; background: #f0f0f0; margin-bottom: 10px;">
+    <Header value="📋 一级分类 (必选)"/>
+    <Choices name="v_primary" toName="v_image" required="true">
+      <Choice value="商品/包裹实拍图"/>
+      <Choice value="购物app截图"/>
+      <Choice value="制式图片"/>
+      <Choice value="环境实拍图"/>
+      <Choice value="其他"/>
+    </Choices>
+  </View>
+
+  <!-- ==================== 购物app截图子标签 ==================== -->
+  <View visibleWhen="choice-selected" whenTagName="v_primary" whenChoiceValue="购物app截图">
+    <Header value="🛒 购物app截图 - 页面类型"/>
+    <Choices name="v_sub_app" toName="v_image">
+      <Choice value="商品头图"/>
+      <Choice value="商品详情页"/>
+      <Choice value="规格分类"/>
+      <Choice value="订单详情页"/>
+      <Choice value="购物车页"/>
+      <Choice value="评论区"/>
+      <Choice value="其他"/>
+    </Choices>
+  </View>
+
+  <!-- ==================== 制式图片子标签 ==================== -->
+  <View visibleWhen="choice-selected" whenTagName="v_primary" whenChoiceValue="制式图片">
+    <Header value="📐 制式图片 - 类型"/>
+    <Choices name="v_sub_std" toName="v_image">
+      <Choice value="户型图"/>
+      <Choice value="装修图"/>
+      <Choice value="其他"/>
+    </Choices>
+  </View>
+
+  <!-- ==================== 环境实拍图 - 四维属性 ==================== -->
+  <View visibleWhen="choice-selected" whenTagName="v_primary" whenChoiceValue="环境实拍图">
+    <Header value="🏠 环境实拍图 - 详细属性"/>
+
+    <!-- 维度1: 环境 (Environment) - 7个选项 -->
+    <Header value="1️⃣ 环境位置" size="5"/>
+    <Choices name="v_env_pos" toName="v_image">
+      <Choice value="阳台"/>
+      <Choice value="厨房"/>
+      <Choice value="卫生间"/>
+      <Choice value="客厅"/>
+      <Choice value="卧室"/>
+      <Choice value="室外"/>
+      <Choice value="其他"/>
+    </Choices>
+
+    <!-- 维度2: 具体位置 (Location) - 12个选项 ✅ 已补全 -->
+    <Header value="2️⃣ 具体位置" size="5"/>
+    <Choices name="v_env_loc" toName="v_image">
+      <Choice value="墙面"/>
+      <Choice value="地面"/>
+      <Choice value="天花板"/>
+      <Choice value="屋顶"/>
+      <Choice value="门/窗框"/>
+      <Choice value="水池"/>
+      <Choice value="马桶"/>
+      <Choice value="阴阳角"/>
+      <Choice value="柜体"/>
+      <Choice value="踢脚线"/>
+      <Choice value="瓷砖缝隙"/>
+      <Choice value="其他"/>
+    </Choices>
+
+    <!-- 维度3: 表面材质 (Material) - 7个选项 ✅ 已补全 -->
+    <Header value="3️⃣ 表面材质" size="5"/>
+    <Choices name="v_env_mat" toName="v_image">
+      <Choice value="腻子层"/>
+      <Choice value="乳胶漆涂层"/>
+      <Choice value="水泥/混凝土"/>
+      <Choice value="瓷砖"/>
+      <Choice value="木材"/>
+      <Choice value="金属"/>
+      <Choice value="其他"/>
+    </Choices>
+
+    <!-- 维度4: 问题类型 (Problem Type) - 11个选项 ✅ 已补全 -->
+    <Header value="4️⃣ 问题类型 (核心诊断)" size="5"/>
+    <Choices name="v_env_prob" toName="v_image">
+      <Choice value="毛坯/腻子批刮中"/>
+      <Choice value="完好旧墙面"/>
+      <Choice value="污渍&amp;涂鸦"/>
+      <Choice value="掉皮&amp;起皮"/>
+      <Choice value="开裂&amp;孔洞"/>
+      <Choice value="露出基层"/>
+      <Choice value="空鼓&amp;翘边"/>
+      <Choice value="发霉&amp;返碱"/>
+      <Choice value="缝隙脱落"/>
+      <Choice value="无明显缺陷"/>
+      <Choice value="无法识别"/>
+    </Choices>
+  </View>
+
+  <!-- ==================== 商品信息提取 (可选) ==================== -->
+  <View style="margin-top: 20px; border-top: 1px solid #ccc;">
+    <Header value="🛍️ 商品信息 (可选)"/>
+    <Taxonomy name="v_tax_prod" toName="v_image">
+      <Choice value="包含商品信息">
+        <Choice value="商品名称"/>
+        <Choice value="价格"/>
+        <Choice value="规格/SKU"/>
+      </Choice>
+    </Taxonomy>
+
+    <Header value="📝 备注信息"/>
+    <TextArea name="v_txt_notes" toName="v_image" placeholder="请输入备注..."/>
+
+    <Header value="🤖 AI 推理结果"/>
+    <TextArea name="v_txt_ai" toName="v_image" editable="false"/>
+  </View>
+</View>

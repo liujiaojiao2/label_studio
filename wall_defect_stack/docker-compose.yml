@@ -1,0 +1,70 @@
+version: "3.8"
+
+services:
+  minio:
+    image: minio/minio:latest
+    container_name: wall-minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin123
+    ports:
+      - "39000:9000"
+      - "39001:9001"
+    volumes:
+      - ./data/minio:/data
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  labelstudio:
+    image: heartexlabs/label-studio:latest
+    container_name: wall-labelstudio
+    depends_on:
+      - minio
+    environment:
+      # 改为HTTPS地址
+      LABEL_STUDIO_HOST: "https://ls-dev.zdeepcare.com:10443"
+      CSRF_TRUSTED_ORIGINS: "https://ls-dev.zdeepcare.com:10443"
+      LABEL_STUDIO_PORT: "8080"
+      
+      # 禁止自动注册功能
+      LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK: "true"
+      
+      # 开启跨域屏蔽
+      CORS_ALLOW_ALL_ORIGINS: "false"
+      
+      # 白名单：包含HTTPS域名
+      CORS_ALLOWED_ORIGINS: "https://ls-dev.zdeepcare.com:10443,http://192.168.0.116:7080,http://localhost:7080"
+      
+      # 重要：设置X-Forwarded头，让Label Studio知道真实协议
+      LABEL_STUDIO_BEHIND_PROXY: "true"
+      LABEL_STUDIO_PROXY_HEADERS: "X-Forwarded-Proto X-Forwarded-Host X-Forwarded-Port"
+    expose:
+      - "8080"  # 只对内网暴露，不直接映射到主机
+    volumes:
+      - ./data/label-studio:/label-studio/data
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  nginx:
+    image: nginx:alpine
+    container_name: wall-nginx
+    depends_on:
+      - labelstudio
+    ports:
+      - "10080:80"
+      - "10443:443"  # HTTPS端口
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl  # SSL证书目录
+      - ./nginx/logs:/var/log/nginx
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
